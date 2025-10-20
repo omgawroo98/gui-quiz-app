@@ -1,0 +1,3575 @@
+[
+  {
+    "section": "Datenbanken",
+    "question": "Wofür steht DBMS?",
+    "choices": [
+      "Database Management System",
+      "Database Main Server",
+      "Database Machine System",
+      "Database Model Structure"
+    ],
+    "answer": "A",
+    "explanation": "DBMS steht für Database Management System; die anderen Begriffe sind keine standardisierten Bezeichnungen."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Was sind Hauptaufgaben eines DBMS?",
+    "choices": [
+      "Daten speichern",
+      "Daten analysieren",
+      "Daten verwalten",
+      "Daten übertragen"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Ein DBMS ist für Speicherung und Verwaltung zuständig; Analyse und Übertragung liegen typischerweise in anderen Systemen."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Welche Aufgaben gehören zu einem DBMS?",
+    "choices": [
+      "Zugriffsbeschränkung",
+      "Fehlerbehebung",
+      "Tabellenkalkulation",
+      "Metadatenverwaltung"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "DBMS kontrolliert Zugriffsrechte, verwaltet Metadaten und unterstützt Wiederherstellung/Fehlerkorrektur; Tabellenkalkulation ist keine DBMS-Aufgabe."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Was sind Ziele einer Transaktion?",
+    "choices": [
+      "Datenintegrität sichern",
+      "Datenbank löschen",
+      "Leistung optimieren",
+      "Konsistente Ergebnisse liefern"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Transaktionen sichern Integrität und Konsistenz. Löschung kann Teil einer Transaktion sein, ist aber kein Ziel; Performance gehört nicht zur Transaktion selbst."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Wofür stehen „A“ und „C“ im ACID-Prinzip?",
+    "choices": [
+      "Availability, Concistency",
+      "Atomicity, Control",
+      "Atomicity, Consistency",
+      "Availability, Control"
+    ],
+    "answer": "C",
+    "explanation": "ACID: Atomicity, Consistency, Isolation, Durability."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Wofür stehen „I“ und „D“ im ACID-Prinzip?",
+    "choices": [
+      "Integrity, Dynamic",
+      "Isolation, Durability",
+      "Isolation, Dynamic",
+      "Integrity, Durability"
+    ],
+    "answer": "B",
+    "explanation": "ACID: Isolation und Durability sind die korrekten Begriffe."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Welche Eigenschaften gehören zu BASE?",
+    "choices": [
+      "Basically Available",
+      "Soft State",
+      "Always Secure",
+      "Efficiency"
+    ],
+    "answer": ["A","B"],
+    "explanation": "BASE steht für Basically Available, Soft State, Eventual Consistency; ‚Always Secure‘ und ‚Efficiency‘ sind keine BASE-Bestandteile."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Welche Merkmale haben NoSQL-Datenbanken?",
+    "choices": [
+      "Vollständige ACID-Unterstützung",
+      "Flexibles Schema",
+      "Hohe Skalierbarkeit",
+      "Kosteneffizient"
+    ],
+    "answer": ["B","C"],
+    "explanation": "NoSQL ist typischerweise schemaflexibel und gut skalierbar; strikte ACID-Garantien werden oft zugunsten von Skalierung gelockert."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Welche typischen Probleme können bei parallelen Datenbankzugriffen auftreten?",
+    "choices": [
+      "Phantom Read",
+      "Commit Error",
+      "Lost Update",
+      "Dirty Data"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Phantom Reads und Lost Updates sind klassische Anomalien bei konkurrierendem Zugriff."
+  },
+  {
+    "section": "Datenbanken",
+    "question": "Welche Vorteile bieten relationale Datenbanken?",
+    "choices": [
+      "Hohe Integrität",
+      "Hohe Flexibilität",
+      "Hohe Skalierbarkeit",
+      "Strenge Konsistenz"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Relationale Systeme garantieren Integrität und (strenge) Konsistenz durch Schema und Constraints; Flexibilität/Skalierung sind vergleichsweise eingeschränkt."
+  },
+    {
+    "section": "Prozessmodellierung",
+    "question": "Welche Hauptziele verfolgt das Prozessmanagement?",
+    "choices": [
+      "Reduzierung der Prozesszeit",
+      "Erhöhung der Mitarbeiteranzahl",
+      "Steigerung der Qualität",
+      "Kurzfristige Maximierung der Gewinne"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Prozessmanagement zielt u. a. auf kürzere Durchlaufzeiten und höhere Qualität ab; Personalaufbau und kurzfristige Gewinnmaximierung sind keine Kernziele."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Eigenschaften gelten für tabellarische Methoden?",
+    "choices": [
+      "Kaum formalisiert",
+      "Sehr hohe Präzision der Spezifikation",
+      "Eher für einfache Anwendungsfälle geeignet",
+      "Darstellung in formaler Notation"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Tabellarische Methoden sind wenig formalisiert und eher für einfache Fälle; hohe Präzision und formale Notation sind Merkmale skriptbasierter Methoden."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Merkmale kennzeichnen skriptbasierte Methoden?",
+    "choices": [
+      "Hohe Präzision",
+      "Geringe Anschaulichkeit",
+      "Keine detaillierten Methodenkenntnisse erforderlich",
+      "Beschreibung anhand formaler Notation"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Skriptbasierte Methoden nutzen formale Notation, sind präzise, aber weniger anschaulich; sie erfordern detaillierte Kenntnisse."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Bereiche umfasst das Prozessmanagement?",
+    "choices": [
+      "Projektplanung",
+      "Prozesscontrolling",
+      "Personalmanagement",
+      "Prozessimplementierung"
+    ],
+    "answer": ["B","D"],
+    "explanation": "Prozessmanagement beinhaltet u. a. Implementierung und Controlling; Projekt- und Personalmanagement gehören nicht dazu."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Aussagen über Prozessmodellierung sind richtig?",
+    "choices": [
+      "Darstellung der Prozesse in einem Unternehmen",
+      "Hilft beim Visualisieren von Prozessen",
+      "Bildet die Grundlage für das Projektmanagement",
+      "Je Prozess erfolgt dies einmalig"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Prozessmodellierung dient der Darstellung/Visualisierung von Prozessen; sie ist kein reines Projektmanagement-Thema und wird iterativ betrieben."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Ein Pool beim BPMN ...",
+    "choices": [
+      "Weist den Prozessteilnehmern ihre Ressourcen zu.",
+      "Kann Prozesse außerhalb und innerhalb des Unternehmens umfassen.",
+      "Stellt einen komplett abgeschlossenen Prozess dar.",
+      "Beinhaltet die Prozessteilnehmer."
+    ],
+    "answer": ["B","C"],
+    "explanation": "Ein Pool steht für einen (abgeschlossenen) Prozess/Teilnehmer und kann interne wie externe Bereiche abbilden; Ressourcen werden nicht zugewiesen."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Aufgaben erfüllt Process Mining?",
+    "choices": [
+      "Erkennen und Managen von Prozessen",
+      "Ständige Prozessoptimierung",
+      "Unterstützung von Governance und Compliance",
+      "Vernichtung unstrukturierter Daten"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Process Mining nutzt Event-Logs zur Erkennung, Steuerung und Optimierung von Prozessen und unterstützt Governance/Compliance."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Datenbasis wird beim Process Mining genutzt?",
+    "choices": [
+      "Event Logs aus IT-Systemen",
+      "Theoretische Prozessmodelle",
+      "Tatsächliche Transaktionen",
+      "Ausschließlich die Quartalsberichte"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Grundlage sind Event Logs, die aus realen Transaktionen/Ereignissen entstehen; theoretische Modelle oder Berichte genügen nicht."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Regeln gelten für EPKs?",
+    "choices": [
+      "Ereignisse und Funktionen wechseln sich ab",
+      "Jeder Prozess beginnt und endet mit einem Ereignis",
+      "Zwei Funktionen dürfen direkt aufeinander folgen",
+      "Innerhalb eines Prozesses werden Entscheidungen getroffen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "In EPKs wechseln sich Ereignisse und Funktionen ab; Prozesse starten/enden mit Ereignissen; Entscheidungen werden über Konnektoren modelliert."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Zu welcher Methodenart gehört die Structured Systems Analysis (SSA)?",
+    "choices": [
+      "Zu den kontrollflussbasierten Methoden",
+      "Zu den Diagrammsprachen",
+      "Zu den tabellarischen Methoden",
+      "Zu den datenflussorientierten Methoden"
+    ],
+    "answer": "D",
+    "explanation": "SSA gehört zu den datenflussorientierten, grafischen Methoden."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Aussagen stimmen über Process Mining?",
+    "choices": [
+      "Rekonstruiert auf Basis von Event-Logs Prozesse",
+      "Gesammelte Daten können manuell in das jeweilige Tool übertragen werden",
+      "Aufgrund steigender Relevanz von KI wird Process Mining unrelevanter",
+      "Process Mining ist eine der Methoden zur Prozessmodellierung"
+    ],
+    "answer": "A",
+    "explanation": "Process Mining rekonstruiert reale Abläufe aus Event-Logs; es ist keine Modellierungsmethode und wird durch KI eher relevanter."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Mit welchem Symbol können Verzweigungen/Zusammenführungen von Sequenzflüssen beim BPMN dargestellt werden?",
+    "choices": [
+      "Ereignis",
+      "Paralleles Gateway",
+      "Exklusives Gateway",
+      "Sequenzflüsse können nicht verzweigt werden"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Gateways (AND/XOR) verzweigen oder führen Sequenzflüsse zusammen; Ereignisse beschreiben Zustände."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Methoden gehören zu den objektorientierten Methoden?",
+    "choices": [
+      "BPMN und Swimlane-Diagramme",
+      "IDEF-Diagramme und Datenflussdiagramme",
+      "Use-Case-Diagramm (UML) und Interaktionsdiagramm (SOM)",
+      "Objektorientierte EPK und Statechart-Diagramm"
+    ],
+    "answer": ["C","D"],
+    "explanation": "UML-Use-Cases/Statecharts und objektorientierte Varianten zählen zu objektorientierten Methoden; BPMN/Swimlanes sind kontrollfluss-, IDEF/DFD datenflussorientiert."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Warum ist Prozessmodellierung relevant?",
+    "choices": [
+      "Fachkräftemangel",
+      "Zunehmende Digitalisierung",
+      "Wettbewerbsfähigkeit",
+      "Komplexe Systeme"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "Digitalisierung, Wettbewerb und Systemkomplexität machen transparente, optimierte Prozesse notwendig; Fachkräftemangel ist kein direkter Modellierungsgrund."
+  },
+  {
+    "section": "Prozessmodellierung",
+    "question": "Welche Bestandteile hat die SSA?",
+    "choices": [
+      "Prozesse",
+      "Quellen und Senken",
+      "Ereignisse",
+      "Funktionen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "SSA umfasst u. a. Prozesse (Teilprozesse), Quellen/Senken, Datenfluss/-speicher und ein Data Dictionary; Ereignisse/Funktionen sind EPK-Elemente."
+  },
+   {
+    "section": "ERP-Softwaretests",
+    "question": "Welche der folgenden Strategien sind inkrementelle Integrationstests?",
+    "choices": [
+      "Bottom-Up Integration Testing",
+      "Big Bang Integration Testing",
+      "Top-Down Integration Testing",
+      "Gemischtes Integration Testing"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Bottom-Up, Top-Down und gemischte Integrationstests fügen Module schrittweise zusammen. Big Bang ist nicht inkrementell, da alle Module gleichzeitig integriert werden."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Fokusbereiche betrachten Integrationstests?",
+    "choices": [
+      "Datenflüsse",
+      "Kommunikationsprotokolle",
+      "Schnittstellenkoordination",
+      "Verhalten"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Integrationstests prüfen Datenflüsse, Schnittstellen und Kommunikationsprotokolle, aber nicht das übergeordnete Verhalten aus Nutzersicht."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Was sind typischerweise Teile einer CI/CD-Pipeline?",
+    "choices": [
+      "Build",
+      "Test",
+      "Deployment",
+      "Refactoring"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "CI/CD-Pipelines bestehen aus Build-, Test- und Deployment-Schritten; Refactoring gehört zur Code-Verbesserung, nicht zur Pipeline selbst."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Begriffe gehören zu CI/CD?",
+    "choices": [
+      "Continuous Integration",
+      "Continuous Delivery",
+      "Continuous Deployment",
+      "Continuous Interfacing"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "CI/CD steht für Continuous Integration, Delivery und Deployment. 'Continuous Interfacing' ist kein Bestandteil davon."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Wozu dienen Softwaretests?",
+    "choices": [
+      "Qualitätsbewertung",
+      "Fehlerfreiheit beweisen",
+      "Korrektheit prüfen",
+      "Sicherheit prüfen"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Tests prüfen Qualität, Korrektheit und Sicherheit, können aber keine absolute Fehlerfreiheit garantieren."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Punkte gehören zum Aufbau von Integrationstests?",
+    "choices": [
+      "Testfälle definieren",
+      "Integrationspunkte ausfindig machen",
+      "Code-Coverage maximieren",
+      "Alle Abhängigkeiten mocken"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Integrationstests definieren Testfälle und identifizieren Integrationspunkte. Coverage ist ein Messwert; vollständiges Mocking widerspricht dem Testziel."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Ansätze werden beim Gemischten Integration Testing kombiniert?",
+    "choices": [
+      "Bottom-Up Integration Testing",
+      "Big Bang Integration Testing",
+      "Top-Down Integration Testing",
+      "Inkrementelles Integration Testing"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Der gemischte Ansatz kombiniert Bottom-Up und Top-Down auf dem Weg zu einer Zielschicht."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Aus welchen Teilen besteht das AAA-Prinzip?",
+    "choices": [
+      "Act",
+      "Arrange",
+      "Assert",
+      "Analyze"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "AAA steht für Arrange (Vorbereitung), Act (Aktion), Assert (Überprüfung)."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Was sind die Hauptziele von Unit Tests?",
+    "choices": [
+      "Sicherstellen, dass einzelne Programmteile korrekt funktionieren",
+      "Testen der kompletten Systemintegration",
+      "Fehler frühzeitig im Entwicklungsprozess finden",
+      "Automatisches Erstellen von Dokumentation"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Unit Tests prüfen einzelne Einheiten und sollen frühzeitig Fehler finden; Integration oder Dokumentation sind andere Stufen."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Eigenschaften sollten Unit Tests haben?",
+    "choices": [
+      "Schnell ausführbar",
+      "Sicherstellung der Benutzerfreundlichkeit",
+      "Wiederholbar und deterministisch",
+      "Einfach zu verstehen"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Unit Tests sollen schnell, wiederholbar und verständlich sein; Benutzerfreundlichkeit ist kein Testziel."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Was versteht man unter Test Coverage?",
+    "choices": [
+      "Der Prozentsatz des Codes, der durch Tests ausgeführt wird",
+      "Die Anzahl der Entwickler, die Tests schreiben",
+      "Ein Maß für die Qualität aller Tests",
+      "Eine Metrik, die zeigt, welche Codepfade getestet wurden"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Test Coverage misst, wie viel Code durch Tests abgedeckt wird, und zeigt getestete Pfade."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Was sind Eigenschaften von TDD und BDD?",
+    "choices": [
+      "TDD fokussiert auf technische Korrektheit",
+      "BDD beschreibt Verhalten und Fachlogik aus Anwendersicht",
+      "Beide beginnen mit dem Schreiben der Tests",
+      "BDD konzentriert sich ausschließlich auf Implementierungsdetails"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "TDD prüft technische Korrektheit, BDD den fachlichen Nutzen; beide schreiben Tests zuerst."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Vorteile bringen automatisierte Unit-Tests im Vergleich zu manuellen Tests?",
+    "choices": [
+      "Schnellere Ausführung",
+      "Wiederholbarkeit unter gleichen Bedingungen",
+      "Unabhängigkeit von menschlichen Fehlern",
+      "Sie erfordern keinerlei Wartung"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Automatisierte Tests sind schneller, reproduzierbar und fehlerunanfällig, müssen aber gepflegt werden."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Best Practices gelten für Unit-Tests?",
+    "choices": [
+      "Jeder Test sollte nur ein Verhalten prüfen",
+      "Tests sollten unabhängig voneinander sein",
+      "Tests sollten leicht verständlich dokumentiert sein",
+      "Tests sollten komplexe Abhängigkeiten einbeziehen"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Gute Tests prüfen eine Funktion, sind unabhängig und dokumentiert; Abhängigkeiten sollen minimiert werden."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Vorteile haben E2E-Tests?",
+    "choices": [
+      "Realitätsnahes Testen echter Use Cases",
+      "Sehr kurze Laufzeiten",
+      "Ganzheitliche Validierung von Schnittstellen & Workflows",
+      "Minimiert Risiken in produktiver Umgebung"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "E2E-Tests prüfen reale Abläufe über alle Systeme hinweg, minimieren Risiken, dauern aber länger."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Was sind Erkennungsmerkmale für eine schlechte Teststrategie?",
+    "choices": [
+      "Viele manuelle Tests statt Automatisierung",
+      "Ungleichgewicht zwischen Testarten",
+      "Fokus auf kritische Pfade",
+      "Instabile Testsuites"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Zu viele manuelle Tests, instabile Tests und übermäßiger Fokus auf kritische Pfade kennzeichnen schwache Strategien."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Wie kann eine Teststrategie verbessert werden, wenn ein Sanduhr-Antipattern vorliegt?",
+    "choices": [
+      "Anzahl der Integrationstests erhöhen",
+      "Unit-Tests stark reduzieren",
+      "Kritische E2E-Tests beibehalten, unnötige streichen",
+      "Testabdeckung an der Schnittstelle ausbauen"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Ein Sanduhr-Antipattern zeigt zu viele E2E-Tests. Integrationstests und Schnittstellenabdeckung sollten erhöht, unnötige E2E reduziert werden."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Welche Folgen hat das Ice-Cream-Cone-Antipattern?",
+    "choices": [
+      "Langsames Feedback",
+      "Hohe Testkosten",
+      "Stabilere Testbasis",
+      "Überlastung durch manuelle Tests"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Das Ice-Cream-Cone-Antipattern beinhaltet zu viele manuelle Tests, verursacht hohe Kosten und langsames Feedback."
+  },
+  {
+    "section": "ERP-Softwaretests",
+    "question": "Was sind die Folgen von 'flaky' Tests?",
+    "choices": [
+      "Entwickler verlieren Vertrauen in die Test-Suite",
+      "Die Tests laufen besonders schnell",
+      "Echte Fehler können übersehen werden",
+      "Sie sind besonders stabil"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Flaky Tests liefern unzuverlässige Ergebnisse, führen zu Vertrauensverlust und erhöhen die Gefahr, echte Fehler zu übersehen."
+  },
+    {
+    "section": "Robotic Process Automation",
+    "question": "Woran erkennt man, dass ein Prozess eher für Menschen als für RPA geeignet ist?",
+    "choices": [
+      "Der Prozess erfordert Urteilsvermögen und Kreativität.",
+      "Der Prozess läuft nach klaren Regeln.",
+      "Der Prozess ist unvorhersehbar und selten.",
+      "Der Prozess erfordert ausschließlich manuelle Eingaben."
+    ],
+    "answer": ["A","C"],
+    "explanation": "RPA eignet sich nicht für kreative oder unregelmäßige Prozesse; solche Aufgaben bleiben menschlich."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Was sind gute Voraussetzungen für einen erfolgreichen RPA-Einsatz?",
+    "choices": [
+      "RPA funktioniert besonders gut bei vielen Workarounds.",
+      "RPA funktioniert besonders gut bei klarer Prozessdefinition.",
+      "RPA funktioniert besonders gut bei stabiler Datenqualität.",
+      "RPA funktioniert besonders gut bei hoher Prozesskomplexität."
+    ],
+    "answer": ["B","C"],
+    "explanation": "RPA braucht klar definierte, regelbasierte Prozesse und stabile Datenqualität; Workarounds und hohe Komplexität erschweren den Einsatz."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Wie unterscheidet sich klassisches RPA von Künstlicher Intelligenz (KI)?",
+    "choices": [
+      "RPA folgt festen Regeln, KI kann lernen.",
+      "RPA kann unstrukturierte Daten verstehen.",
+      "RPA kann eigenständig neue Regeln entwickeln.",
+      "KI unterstützt Entscheidungsfindung, RPA führt Entscheidungen aus."
+    ],
+    "answer": ["A","D"],
+    "explanation": "RPA arbeitet regelbasiert; KI ist lernfähig. KI kann Entscheidungen vorbereiten, RPA setzt sie um."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "In welchen Bereichen kann RPA sinnvoll eingesetzt werden?",
+    "choices": [
+      "Kreatives Design von Produkten",
+      "Rechnungsverarbeitung",
+      "Auftragsbestätigung im ERP-System",
+      "Pflege von Preislisten im System"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "RPA ist geeignet für wiederkehrende, regelbasierte Prozesse wie Rechnungsverarbeitung, Buchungen und Datenpflege."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Wie kann RPA im Personalwesen unterstützen?",
+    "choices": [
+      "Automatische Erstellung von Arbeitsverträgen",
+      "Unterstützung bei Beförderungsentscheidungen",
+      "Durchführung von Bewerbungsgesprächen",
+      "Automatisiertes Eintragen von Urlaubsanträgen"
+    ],
+    "answer": ["A","D"],
+    "explanation": "RPA kann wiederkehrende Personalprozesse automatisieren, z. B. Vertrags- und Urlaubsverwaltung."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Was sind typische technische Auslöser für einen Unattended RPA-Prozess?",
+    "choices": [
+      "Eingang einer E-Mail im Postfach",
+      "Manueller Start durch Mitarbeiter",
+      "Spontane Entscheidungen des RPA",
+      "Zeitplan (z. B. jede Nacht um 2 Uhr)"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Unattended RPAs laufen automatisch, ausgelöst durch E-Mail-Ereignisse oder Zeitpläne, ohne manuelles Eingreifen."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Wie kann RPA bei der Aktualisierung von Lieferantendaten helfen?",
+    "choices": [
+      "Automatische Lieferantenbewertung",
+      "Benachrichtigung bei Datenänderung",
+      "Gespräche mit Lieferanten führen",
+      "Abgleich mit externen Datenbanken"
+    ],
+    "answer": ["B","D"],
+    "explanation": "RPA kann Änderungen automatisch erkennen, Benachrichtigungen senden und Daten mit externen Quellen abgleichen."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche Rolle spielt Prozessdokumentation beim Einsatz von RPA?",
+    "choices": [
+      "Sie behindert die Automatisierung.",
+      "Sie ist überflüssig, da RPA automatisch dokumentiert.",
+      "Sie ist nur für gesetzliche Prüfungen relevant.",
+      "Sie ist Voraussetzung für erfolgreiche Automatisierung."
+    ],
+    "answer": "D",
+    "explanation": "Eine exakte Dokumentation ist Voraussetzung für erfolgreiche RPA-Prozesse, da sie Regeln und Abläufe eindeutig festlegt."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche RPA-Art wird genutzt, wenn Rechnungen automatisch nachts verarbeitet werden?",
+    "choices": [
+      "Attended RPA",
+      "Unattended RPA",
+      "Hybrider RPA",
+      "Smart Process Automation"
+    ],
+    "answer": "B",
+    "explanation": "Unattended RPA läuft ohne Benutzereingriff im Hintergrund, z. B. bei nächtlichen Batch-Prozessen."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Wie wirkt sich RPA auf die Fehlerquote aus?",
+    "choices": [
+      "RPA erhöht die Fehlerquote durch Improvisation.",
+      "RPA beeinflusst die Fehlerquote nicht.",
+      "RPA senkt die Fehlerquote durch regelbasierte Ausführung.",
+      "RPA reduziert Fehler nur bei paralleler menschlicher Kontrolle."
+    ],
+    "answer": "C",
+    "explanation": "RPA senkt Fehlerquoten, da Roboter strikt regelbasiert und konsistent arbeiten."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche RPA-Art wird genutzt, wenn ein Mitarbeiter bei kritischen Entscheidungen eingreift?",
+    "choices": [
+      "Attended RPA",
+      "Unattended RPA",
+      "Hybrider RPA",
+      "Smart Process Automation"
+    ],
+    "answer": "C",
+    "explanation": "Hybrid-RPAs kombinieren automatische und manuelle Schritte und ermöglichen menschliche Eingriffe bei Bedarf."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche Ursachen sind plausibel, wenn eine RPA-Automatisierung nicht mehr funktioniert?",
+    "choices": [
+      "Geänderte Benutzeroberfläche",
+      "Spontane Entscheidung des Bots",
+      "Grundsätzlich unzuverlässiges RPA",
+      "Zu hohe Datenqualität"
+    ],
+    "answer": "A",
+    "explanation": "Wenn sich GUIs ändern, kann RPA Eingabefelder nicht mehr erkennen und fehlschlagen."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche Kriterien sprechen für RPA in der Krankenhausabrechnung?",
+    "choices": [
+      "Hohe Standardisierung der Prozesse",
+      "Viele wiederkehrende Schritte",
+      "Ständige Änderungen der Prozesse",
+      "Digitale Datenmengen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Standardisierte, wiederkehrende und datenintensive Prozesse eignen sich gut für RPA; häufige Änderungen hingegen nicht."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche Risiken birgt der Einsatz von RPA?",
+    "choices": [
+      "Geringe Benutzerakzeptanz",
+      "Höhere Durchlaufzeiten",
+      "Verhinderung echter Innovation",
+      "Hohe Hardwarekosten"
+    ],
+    "answer": ["A","C"],
+    "explanation": "RPA kann Akzeptanzprobleme erzeugen und bestehende Prozesse verfestigen, wodurch Innovationen ausbleiben."
+  },
+  {
+    "section": "Robotic Process Automation",
+    "question": "Welche Chancen eröffnet der Einsatz von RPA?",
+    "choices": [
+      "Entlastung der Mitarbeiter von Routineaufgaben",
+      "Steigerung der Prozesseffizienz",
+      "Treffen komplexer Entscheidungen",
+      "Verkürzung von Durchlaufzeiten"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "RPA ermöglicht Zeitersparnis, höhere Effizienz und Prozessbeschleunigung durch Automatisierung repetitiver Aufgaben."
+  },
+    {
+    "section": "Authentifizierung",
+    "question": "Welche Methoden zählen zur Besitz-Authentifizierung?",
+    "choices": [
+      "Fingerabdruck",
+      "Passwort",
+      "Smartcard",
+      "Gesichtserkennung"
+    ],
+    "answer": "C",
+    "explanation": "Besitz-Authentifizierung basiert auf etwas, das man besitzt – z. B. eine Smartcard."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Was sind typische Beispiele für ein Besitzmerkmal?",
+    "choices": [
+      "Ein Token",
+      "Ein PIN-Code",
+      "Ein Schlüssel",
+      "Eine Sicherheitsfrage"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Token und Schlüssel sind physische Objekte, die Besitz repräsentieren."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Warum gilt Besitz-Authentifizierung als relativ sicher?",
+    "choices": [
+      "Weil sie biometrisch ist",
+      "Weil der Besitz schwer zu fälschen ist",
+      "Weil sie keine Hardware benötigt",
+      "Weil sie auf Wissen basiert"
+    ],
+    "answer": "B",
+    "explanation": "Physischer Besitz ist schwer zu kopieren oder nachzuahmen, insbesondere bei kryptografischen Tokens."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Wofür wurde RFID im Zweiten Weltkrieg genutzt?",
+    "choices": [
+      "Warentransport",
+      "Strategienentwicklung",
+      "Feinderkennung",
+      "Feindbeschuss"
+    ],
+    "answer": "C",
+    "explanation": "RFID wurde als Sekundärradar zur Feinderkennung eingesetzt."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Was sind Vorteile von Besitz-Authentifizierung?",
+    "choices": [
+      "Sie funktioniert ohne Internet",
+      "Sie ist unabhängig vom Nutzerverhalten",
+      "Sie ist leicht zu erraten",
+      "Sie ist immer biometrisch"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Besitzmerkmale funktionieren offline und sind unabhängig vom Verhalten der Benutzer:innen."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Welche Aussagen treffen auf Besitz-Authentifizierung zu?",
+    "choices": [
+      "Sie erfordert ein physisches Objekt",
+      "Sie basiert auf Wissen",
+      "Sie nutzt Verhaltenserkennung",
+      "Sie ist nur für Unternehmen geeignet"
+    ],
+    "answer": "A",
+    "explanation": "Bei Besitz-Authentifizierung wird die Identität durch ein physisches Objekt wie eine Karte oder ein Token nachgewiesen."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Was passiert, wenn ein Besitzmerkmal verloren geht?",
+    "choices": [
+      "Der Zugriff bleibt bestehen",
+      "Der Nutzer muss sich neu registrieren",
+      "Es entsteht ein Sicherheitsrisiko",
+      "Es hat keine Auswirkungen"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Beim Verlust entsteht ein Sicherheitsrisiko; oft ist eine Neuregistrierung erforderlich."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Welche Geräte können Besitzmerkmale darstellen?",
+    "choices": [
+      "Smartphones",
+      "Smartwatches",
+      "Tastaturen",
+      "USB-Sticks"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Smartphones, Smartwatches und USB-Sticks können Schlüssel oder Tokens speichern und somit Besitzmerkmale darstellen."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Was sind Nachteile von Besitz-Authentifizierung?",
+    "choices": [
+      "Verlust oder Diebstahl des Objekts",
+      "Hohe Benutzerfreundlichkeit",
+      "Keine zusätzliche Hardware nötig",
+      "Unabhängigkeit vom Gerät"
+    ],
+    "answer": "A",
+    "explanation": "Besitz kann verloren oder gestohlen werden, was ein Sicherheitsrisiko darstellt."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Was beschreibt Authentifizierung?",
+    "choices": [
+      "Person verfügt über die richtigen Berechtigungen",
+      "Bestätigt, dass jemand wirklich die Person ist, für die sie sich ausgibt",
+      "Beschreibt, wie authentisch die Person ist",
+      "Beschreibt, dass jemand eine bestimmte Qualifikation hat"
+    ],
+    "answer": "B",
+    "explanation": "Authentifizierung bestätigt die Identität einer Person oder eines Geräts."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Welche Kombinationen stellen eine Zwei-Faktor-Authentifizierung mit Besitz dar?",
+    "choices": [
+      "Passwort + Fingerabdruck",
+      "PIN + Token",
+      "Gesicht + Smartphone",
+      "Sicherheitsfrage + Passwort"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Zwei-Faktor-Authentifizierung kombiniert Besitz (z. B. Token, Smartphone) mit Wissen oder Biometrie."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Welche dieser Aussagen beschreibt Besitz-Authentifizierung korrekt?",
+    "choices": [
+      "Sie nutzt etwas, das man weiß",
+      "Sie nutzt etwas, das man ist",
+      "Sie nutzt etwas, das man hat",
+      "Sie nutzt etwas, das man tut"
+    ],
+    "answer": "C",
+    "explanation": "Besitz-Authentifizierung basiert auf ‚etwas, das man hat‘, wie Token oder Schlüssel."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Wofür steht die Abkürzung RFID?",
+    "choices": [
+      "Remote File Integration Device",
+      "Radio Frequency Identification",
+      "Robotic Filed Interaction Detector",
+      "Rapid Function Interface Driver"
+    ],
+    "answer": "B",
+    "explanation": "RFID steht für Radio Frequency Identification, eine Technologie zur drahtlosen Identifikation."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Welche Sicherheitsmaßnahmen ergänzen Besitz-Authentifizierung sinnvoll?",
+    "choices": [
+      "Biometrie",
+      "Passwort",
+      "Verhaltenserkennung",
+      "Captcha"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Kombinationen mit Wissen (z. B. Passwort), Biometrie oder Verhalten erhöhen die Sicherheit."
+  },
+  {
+    "section": "Authentifizierung",
+    "question": "Warum ist Besitz-Authentifizierung allein nicht immer ausreichend?",
+    "choices": [
+      "Geräte können gestohlen werden",
+      "Nutzer vergessen das Besitzmerkmal",
+      "Es gibt keine Möglichkeit zur Wiederherstellung",
+      "Sie kann durch Social Engineering umgangen werden"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Besitz kann gestohlen oder durch Social Engineering kompromittiert werden; daher wird sie meist mit anderen Faktoren kombiniert."
+  },
+    {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Hauptziele verfolgt Customer Relationship Management (CRM)?",
+    "choices": [
+      "Kundenzufriedenheit steigern",
+      "Kundenabwanderung fördern",
+      "Umsätze langfristig erhöhen",
+      "Einmalige Verkäufe maximieren"
+    ],
+    "answer": ["A","C"],
+    "explanation": "CRM zielt auf langfristige Kundenbindung, Zufriedenheit und Umsatzsteigerung ab."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Phasen umfasst der CRM-Lebenszyklus typischerweise?",
+    "choices": [
+      "Kundengewinnung",
+      "Kundenbindung",
+      "Kundenrückgewinnung",
+      "Kundenkündigung"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "CRM begleitet den gesamten Kundenlebenszyklus: Gewinnung, Bindung und Rückgewinnung."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Daten werden im analytischen CRM hauptsächlich genutzt?",
+    "choices": [
+      "Vertriebs- und Kaufhistorien",
+      "Soziale Interaktionen",
+      "Mitarbeiterdaten",
+      "Buchhaltungsdaten"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Analytisches CRM nutzt Vertriebs-, Interaktions- und Verhaltensdaten zur Mustererkennung und Segmentierung."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Was ist das Ziel des operativen CRM?",
+    "choices": [
+      "Automatisierung von Kundenkontaktprozessen",
+      "Statistische Auswertung von Kundendaten",
+      "Planung der Serverinfrastruktur",
+      "Überwachung der Netzwerkperformance"
+    ],
+    "answer": "A",
+    "explanation": "Operatives CRM automatisiert Kundeninteraktionen in Vertrieb, Marketing und Service."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Was ist ein Ziel des kollaborativen CRM?",
+    "choices": [
+      "Koordination zwischen verschiedenen Kundenkontaktpunkten",
+      "Verkürzung der Produktlebenszyklen",
+      "Automatisierung der Produktionsplanung",
+      "Erhöhung der Lagerbestände"
+    ],
+    "answer": "A",
+    "explanation": "Kollaboratives CRM synchronisiert Kommunikationskanäle und Abteilungen, um einheitliche Kundeninteraktion zu ermöglichen."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Vorteile bietet CRM für Unternehmen?",
+    "choices": [
+      "Bessere Kundenkenntnis",
+      "Erhöhte Kundenzufriedenheit",
+      "Steigende Marketingkosten",
+      "Verbesserte Kundenbindung"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "CRM verbessert Wissen über Kunden, stärkt Bindung und Zufriedenheit; Marketingkosten können sogar sinken."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Systeme sind typischerweise mit CRM-Systemen integriert?",
+    "choices": [
+      "ERP-Systeme",
+      "SCM-Systeme",
+      "CMS-Systeme",
+      "Videospiele"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "CRM-Systeme sind oft mit ERP, Supply Chain Management und Content Management integriert."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Was ist das Ziel von Marketing Automation im CRM?",
+    "choices": [
+      "Automatische Durchführung personalisierter Kampagnen",
+      "Automatisierung der Lagerverwaltung",
+      "Erhöhung der Serverleistung",
+      "Verringerung der Mitarbeiterzahl"
+    ],
+    "answer": "A",
+    "explanation": "Marketing Automation erstellt und steuert automatisch Kampagnen basierend auf Kundenverhalten."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Herausforderungen bestehen bei der Einführung eines CRM-Systems?",
+    "choices": [
+      "Datenqualität und Integration",
+      "Akzeptanz durch Mitarbeitende",
+      "Technologische Überforderung",
+      "Überproduktion"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Schlechte Datenqualität, mangelnde Nutzerakzeptanz und technische Komplexität sind typische Einführungsprobleme."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Was versteht man unter Customer Lifetime Value (CLV)?",
+    "choices": [
+      "Den monetären Gesamtwert eines Kunden über die gesamte Beziehung hinweg",
+      "Den jährlichen Gewinn eines Unternehmens",
+      "Die durchschnittliche Kundenzufriedenheit",
+      "Die Kosten pro Akquisition"
+    ],
+    "answer": "A",
+    "explanation": "CLV beschreibt den langfristigen finanziellen Wert eines Kunden für das Unternehmen."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Rolle spielt Social CRM?",
+    "choices": [
+      "Nutzt soziale Medien zur Kundeninteraktion",
+      "Vermeidet soziale Medien aus Sicherheitsgründen",
+      "Ersetzt traditionelles CRM vollständig",
+      "Wird nur im internen Netzwerk verwendet"
+    ],
+    "answer": "A",
+    "explanation": "Social CRM integriert Social-Media-Plattformen in den Kundenkontakt und das Beziehungsmanagement."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Vorteile bietet die Personalisierung im CRM?",
+    "choices": [
+      "Individuelle Ansprache der Kunden",
+      "Effektivere Marketingmaßnahmen",
+      "Erhöhte Markenbindung",
+      "Geringere Kundendatenqualität"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Personalisierung steigert Relevanz, Effektivität und Kundenbindung; Datenqualität ist Voraussetzung, kein Nachteil."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Was beschreibt den Begriff '360°-Kundensicht' im CRM?",
+    "choices": [
+      "Zentrale Sicht auf alle Kundendaten und -interaktionen",
+      "Nur finanzielle Kennzahlen des Kunden",
+      "Ausschließlich Social-Media-Aktivitäten",
+      "Nur Supportkontakte"
+    ],
+    "answer": "A",
+    "explanation": "Eine 360°-Kundensicht bündelt alle relevanten Informationen über den Kunden in einem zentralen System."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Welche Funktionen sind typisch für analytisches CRM?",
+    "choices": [
+      "Data Mining und Prognosemodelle",
+      "Kampagnenplanung",
+      "Berichtswesen und Dashboards",
+      "Produktionsplanung"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Analytisches CRM nutzt Analysen, Dashboards und Data Mining zur Entscheidungsunterstützung im Marketing und Vertrieb."
+  },
+  {
+    "section": "Geschäftsprozesse im Internet (CRM)",
+    "question": "Was ist ein Nachteil von CRM-Systemen?",
+    "choices": [
+      "Hoher Implementierungsaufwand",
+      "Erhöhte Transparenz",
+      "Zentrale Datenspeicherung",
+      "Verbesserte Kundenkommunikation"
+    ],
+    "answer": "A",
+    "explanation": "Der initiale Implementierungsaufwand und Schulungsbedarf sind typische Nachteile bei CRM-Einführungen."
+  },
+    {
+    "section": "Netzwerke",
+    "question": "Welche Eigenschaften beschreiben Netzwerke?",
+    "choices": [
+      "Sie ersetzen Hardware-Komponenten vollständig",
+      "Sie vermeiden Kommunikation zwischen Geräten",
+      "Sie erhöhen die Abhängigkeit vom Internet",
+      "Sie verbinden Endgeräte zur Datenübertragung"
+    ],
+    "answer": "D",
+    "explanation": "Netzwerke verbinden Geräte, um Daten und Ressourcen wie Drucker oder Internetzugänge gemeinsam zu nutzen."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Aussagen treffen auf das OSI-Modell zu?",
+    "choices": [
+      "Es besteht aus 7 Schichten",
+      "Es ersetzt TCP/IP vollständig",
+      "Es dient als theoretisches Referenzmodell",
+      "Es definiert nur Hardware-Komponenten"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Das OSI-Modell ist ein theoretisches Schichtenmodell zur Standardisierung von Netzwerkkommunikation und besteht aus sieben Layern."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Protokolle arbeiten auf der Transportschicht?",
+    "choices": [
+      "HTTP und HTTPS",
+      "TCP und UDP",
+      "ARP und DNS",
+      "SMTP und POP3"
+    ],
+    "answer": "B",
+    "explanation": "TCP und UDP sind Transportprotokolle (Layer 4) – sie regeln Zuverlässigkeit und Geschwindigkeit der Datenübertragung."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Eigenschaften besitzt IPv4?",
+    "choices": [
+      "32-Bit-Adressen",
+      "Darstellung in vier Oktetten",
+      "Weltweit unbegrenzte Adressen",
+      "Dezimalnotation"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "IPv4 nutzt 32 Bit, dargestellt in vier Dezimal-Oktetten, und bietet nur begrenzt Adressraum (~4,3 Milliarden)."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Vorteile besitzt IPv6 gegenüber IPv4?",
+    "choices": [
+      "Große Adressmenge",
+      "Feste Sicherheitsfunktionen",
+      "Vereinfachtes Routing",
+      "Deutlich kleineres Adressformat"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IPv6 bietet 128-Bit-Adressen, integrierte Sicherheit (IPsec) und einfacheres Routing. Adressen sind größer, nicht kleiner."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Aufgabe übernimmt DNS?",
+    "choices": [
+      "Es verschlüsselt Netzwerke",
+      "Es vergibt MAC-Adressen",
+      "Es speichert Daten redundant",
+      "Es übersetzt Domainnamen in IP-Adressen"
+    ],
+    "answer": "D",
+    "explanation": "DNS wandelt Domainnamen wie ‚google.de‘ in IP-Adressen um, damit Computer Server finden können."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Netzwerktypen existieren in der Praxis?",
+    "choices": [
+      "LAN",
+      "URL",
+      "WAN",
+      "MAN"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "LAN, MAN und WAN unterscheiden sich durch geographische Reichweite. Eine URL ist kein Netzwerktyp."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Eigenschaften besitzt ein Wide-Area-Network (WAN)?",
+    "choices": [
+      "Beschränkung auf Heimnetzwerke",
+      "Verbindung vieler Subnetze",
+      "Begrenzte Anzahl an Geräten",
+      "Große geografische Reichweite"
+    ],
+    "answer": ["B","D"],
+    "explanation": "WANs verbinden viele lokale Netzwerke über große Entfernungen hinweg, z. B. das Internet."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Merkmale beschreiben die Sterntopologie?",
+    "choices": [
+      "Zentraler Knotenpunkt",
+      "Komplexe Fehlersuche",
+      "Fehlertoleranz bei Kabelbruch",
+      "Hohe Abhängigkeit vom zentralen Gerät"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Die Sterntopologie bündelt Verbindungen an einem zentralen Punkt, der kritisch für das gesamte Netzwerk ist."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Ebenen gehören zur Baumtopologie?",
+    "choices": [
+      "Customer Layer",
+      "Access Layer",
+      "Distribution Layer",
+      "Core Layer"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "Die Baumtopologie besteht aus Access-, Distribution- und Core-Layer und bildet hierarchische Netzwerkstrukturen ab."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Aufgaben erfüllen Router?",
+    "choices": [
+      "Weiterleitung von Paketen",
+      "Nutzung von URLs für das Routing",
+      "Arbeiten auf Netzwerk-Schicht",
+      "Verwaltung von MAC-Adressen"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Router arbeiten auf Layer 3, leiten IP-Pakete weiter und treffen Routingentscheidungen; MAC-Adressen gehören zu Switches."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Aufgaben hat ein Switch?",
+    "choices": [
+      "Verbindet Netzwerkgeräte",
+      "Verteilt Pakete anhand von MAC-Adressen",
+      "Arbeitet auf Layer 2",
+      "Verteilt Pakete anhand von IP-Adressen"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Switches operieren auf Layer 2, verbinden Geräte und leiten Daten anhand von MAC-Adressen weiter."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Funktionen erfüllen Firewalls?",
+    "choices": [
+      "Speichern Backups",
+      "Schützen Netzwerke",
+      "Arbeiten zwischen Netzsegmenten",
+      "Filtern Datenverkehr"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "Firewalls filtern und schützen den Datenverkehr zwischen Netzwerksegmenten; sie speichern keine Backups."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Vorteile bieten VLANs?",
+    "choices": [
+      "Logische Netzwerktrennung",
+      "Erhöhung der MAC-Adressen",
+      "Reduzierung von Broadcast",
+      "Erhöhte Sicherheit"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "VLANs trennen Netzwerke logisch, reduzieren Broadcast-Traffic und erhöhen Sicherheit durch Segmentierung."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Ziele verfolgt Subnetting?",
+    "choices": [
+      "Effiziente IP-Adressbereich-Ausnutzung",
+      "Erhöhte Übersichtlichkeit",
+      "Erhöhung der WLAN-Reichweite",
+      "Abschaffung von Routern"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Subnetting unterteilt Netzwerke logisch, um Adressen effizient zu nutzen und Struktur zu schaffen."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Eigenschaften besitzt eine DMZ?",
+    "choices": [
+      "Schützt interne Netze",
+      "Bindet externe Server ein",
+      "Liegt zwischen zwei Firewalls",
+      "Verhindert Internetzugriffe"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Eine DMZ schützt interne Netze durch isolierte Serverzonen und wird oft zwischen zwei Firewalls eingerichtet."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Eigenschaften haben VPNs?",
+    "choices": [
+      "Sichere Kommunikation",
+      "Öffentliche Datentunnel",
+      "Öffentliche Zugriffsfreigabe",
+      "Einsatz im Homeoffice"
+    ],
+    "answer": ["A","D"],
+    "explanation": "VPNs ermöglichen verschlüsselte, sichere Kommunikation über öffentliche Netze – oft genutzt im Homeoffice."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche VPN-Arten werden verwendet?",
+    "choices": [
+      "Remote-Access VPN",
+      "Site-to-Site VPN",
+      "End-to-End VPN",
+      "Broadcast VPN"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Remote-Access-, Site-to-Site- und End-to-End-VPNs sind etablierte Typen; ein 'Broadcast VPN' existiert nicht."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Merkmale hat die symmetrische Verschlüsselung?",
+    "choices": [
+      "Zwei verschiedene Schlüssel",
+      "Schnelle Verarbeitung",
+      "Gleicher Schlüssel für Ver- und Entschlüsselung",
+      "Public-Private-Key-Paar"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Symmetrische Verschlüsselung nutzt denselben Schlüssel für beide Richtungen und ist sehr effizient."
+  },
+  {
+    "section": "Netzwerke",
+    "question": "Welche Merkmale kennzeichnen die asymmetrische Verschlüsselung?",
+    "choices": [
+      "Hohe Geschwindigkeit",
+      "Private Key",
+      "Sicherer Schlüsselaustausch",
+      "Public Key"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "Asymmetrische Verfahren verwenden Public/Private Keys, ermöglichen sicheren Austausch, sind aber langsamer als symmetrische Verfahren."
+  },
+    {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Aussagen über Container treffen zu?",
+    "choices": [
+      "Container haben ein eigenes, integriertes Betriebssystem.",
+      "Container nutzen den Kernel des Host-Systems.",
+      "Container sind grundsätzlich schneller als virtuelle Maschinen.",
+      "Ein Container ist ein Betriebssystem."
+    ],
+    "answer": ["B","C"],
+    "explanation": "Container teilen sich den Kernel des Host-Systems und sind daher ressourcenschonender und schneller als virtuelle Maschinen."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Braucht ein Docker-Container zwingend eine Netzwerkverbindung, um zu funktionieren?",
+    "choices": [
+      "Ja, sonst läuft er nicht.",
+      "Nein, er kann auch ohne Netzwerkverbindung laufen.",
+      "Nur, wenn der Benutzer von außerhalb des eigenen Netzwerks zugreifen will.",
+      "Ja, weil Docker eine SaaS-Lösung ist."
+    ],
+    "answer": ["B","C"],
+    "explanation": "Container können ohne Netzwerkverbindung arbeiten, benötigen diese nur für externe Kommunikation."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Rolle spielte das Unternehmen 'dotCloud' in der Geschichte von Docker?",
+    "choices": [
+      "Es hat Docker Inc. nach dessen Insolvenz übernommen.",
+      "Es war das Unternehmen, aus dem Docker ursprünglich als internes Projekt hervorging.",
+      "Es war der erste große Konkurrent zu Docker.",
+      "Es entwickelte Kubernetes als Orchestrierungslösung für Docker."
+    ],
+    "answer": "B",
+    "explanation": "Docker entstand ursprünglich als internes Projekt des PaaS-Unternehmens dotCloud."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Was ist der Hauptunterschied zwischen einem Docker Image und einem Docker Container?",
+    "choices": [
+      "Ein Image ist eine schreibgeschützte Vorlage, ein Container ist eine laufende, beschreibbare Instanz dieses Images.",
+      "Ein Image wird per 'docker run' gestartet, ein Container per 'docker build'.",
+      "Ein Container ist eine Ausführungsumgebung, die auf einem Image basiert und die Anwendung samt Abhängigkeiten isoliert.",
+      "Es gibt keinen Unterschied, die Begriffe sind synonym."
+    ],
+    "answer": ["A","C"],
+    "explanation": "Ein Image ist eine unveränderliche Vorlage; ein Container ist eine laufende Instanz dieses Images."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Aussagen über die Beziehung zwischen Virtualisierung (VMs) und Containern sind korrekt?",
+    "choices": [
+      "Container starten in der Regel deutlich schneller als virtuelle Maschinen.",
+      "Ein Hypervisor wird zur Verwaltung von Containern verwendet.",
+      "Container sind ressourcenschonender, da sie den Kernel des Host-Betriebssystems teilen.",
+      "Virtuelle Maschinen bieten eine leichtere Isolation mit weniger Overhead."
+    ],
+    "answer": ["A","C"],
+    "explanation": "Container starten schneller und benötigen weniger Ressourcen, da sie sich den Host-Kernel teilen; Hypervisoren sind nur bei VMs nötig."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Wofür wird der ENTRYPOINT-Befehl in einem Dockerfile typischerweise verwendet?",
+    "choices": [
+      "Um festzulegen, welcher Netzwerk-Port nach außen freigegeben wird.",
+      "Um das Basis-Image anzugeben, von dem aus gebaut wird.",
+      "Um den Standardbefehl zu definieren, der beim Starten des Containers ausgeführt wird.",
+      "Um Dateien vom Host-System in das Image zu kopieren."
+    ],
+    "answer": "C",
+    "explanation": "ENTRYPOINT legt das Hauptprogramm fest, das beim Starten eines Containers ausgeführt wird."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Wie startet man eine Container-Instanz in Docker?",
+    "choices": [
+      "Über die Kommandozeile (CLI) mit dem Befehl 'docker run'.",
+      "Mit einer docker-compose.yml.",
+      "Über GUI-Tools wie Docker Desktop oder Podman.",
+      "Nur durch erneutes Installieren von Docker."
+    ],
+    "answer": ["A","C"],
+    "explanation": "Container können über CLI oder GUI gestartet werden; 'docker-compose.yml' definiert Multi-Container-Setups."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Wofür ist die Kombination von Docker und Kubernetes nützlich?",
+    "choices": [
+      "Das Betreiben von Docker unter Microsoft Windows.",
+      "Das Verkleinern des Ressourcenbedarfs von Containern.",
+      "Für die Skalierung und Verwaltung vieler Container.",
+      "Das automatische Komprimieren von Images.",
+      "Für Ausfallsicherheit und automatisches Neustarten von Containern."
+    ],
+    "answer": ["C","E"],
+    "explanation": "Kubernetes orchestriert Container: Es automatisiert Skalierung, Verwaltung und Neustart bei Ausfällen."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Vorteile bieten Container gegenüber klassischer Installation?",
+    "choices": [
+      "Einheitliche Umgebung zur Verwaltung",
+      "Einfache Portabilität",
+      "Sie benötigen keinen Speicherplatz",
+      "Sie verbrauchen gar keine Rechenleistung"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Container sind leicht portierbar und bieten konsistente Laufzeitumgebungen; Speicher und CPU benötigen sie natürlich trotzdem."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Wie können mehrere Container untereinander kommunizieren?",
+    "choices": [
+      "Über ein gemeinsames Docker-Netzwerk",
+      "Nur über externe Server",
+      "Gar nicht, Container sind komplett isoliert",
+      "Durch Port-Mapping nach außen und Zugriff über Host-Ports"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Container kommunizieren über interne Docker-Netzwerke oder durch freigegebene Ports nach außen."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Organisationen sind maßgeblich für die Entwicklung des Kubernetes-Projekts zuständig?",
+    "choices": [
+      "Microsoft",
+      "Red Hat",
+      "Google",
+      "Cloud Native Computing Foundation (CNCF)"
+    ],
+    "answer": ["C","D"],
+    "explanation": "Kubernetes wurde von Google entwickelt und später an die CNCF übergeben, die es heute betreut."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Komponenten gehören zur Kubernetes Control Plane?",
+    "choices": [
+      "kube-apiserver",
+      "etcd",
+      "kube-scheduler",
+      "Docker CLI"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Control Plane-Komponenten sind u. a. kube-apiserver, etcd und kube-scheduler."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Aussagen über Pods sind korrekt?",
+    "choices": [
+      "Sie sind die kleinste ausführbare Einheit in Kubernetes.",
+      "Sie können einen oder mehrere Container enthalten.",
+      "Sie speichern dauerhaft Daten wie eine Datenbank.",
+      "Sie ersetzen die Control Plane."
+    ],
+    "answer": ["A","B"],
+    "explanation": "Pods sind die kleinste deploybare Einheit und können mehrere Container enthalten; sie speichern keine Daten dauerhaft."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Speicherressourcen gibt es in Kubernetes?",
+    "choices": [
+      "PersistentVolume (PV)",
+      "PersistentVolumeClaim (PVC)",
+      "kube-apiserver",
+      "kube-proxy"
+    ],
+    "answer": ["A","B"],
+    "explanation": "PersistentVolumes und PersistentVolumeClaims regeln den Zugriff auf Speicherressourcen."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Was sind die primären Aufgaben von Kubernetes Network Policies?",
+    "choices": [
+      "Zuweisung von öffentlichen IP-Adressen an Pods",
+      "Steuerung des Datenverkehrs zwischen Pods auf Basis von Regeln",
+      "Verschlüsselung der Daten im Ruhezustand",
+      "Isolation von Workloads zur Erhöhung der Sicherheit"
+    ],
+    "answer": ["B","D"],
+    "explanation": "Network Policies fungieren als Firewall-Regeln für Pod-Kommunikation und sorgen für Isolation."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Was beschreibt die Funktion eines Kubernetes Deployments am besten?",
+    "choices": [
+      "Definiert dauerhaften Speicher für einen Pod",
+      "Deklariert den gewünschten Zustand einer Anwendung (z. B. Anzahl Replikate)",
+      "Ermöglicht automatisierte Skalierung und Management von Containern",
+      "Stellt eine einmalige Aufgabe bis Fertigstellung dar"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Deployments verwalten zustandslose Anwendungen, deklarieren Zielzustände und skalieren automatisch."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Was waren die internen Vorläufer von Kubernetes bei Google?",
+    "choices": [
+      "Borg",
+      "Docker Swarm",
+      "Omega",
+      "Apache Mesos"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Kubernetes basiert auf Erfahrungen aus Googles Borg- und Omega-Projekten."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Aussagen über Ressourcen-Nutzung innerhalb eines Pods sind korrekt?",
+    "choices": [
+      "Jeder Container in einem Pod hat seine eigene IP-Adresse.",
+      "Container in einem Pod können über gemeinsames Speichervolumen Daten austauschen.",
+      "Alle Container innerhalb eines Pods teilen denselben Netzwerk-Namensraum.",
+      "Ein Pod kann nur genau einen Container enthalten."
+    ],
+    "answer": ["B","C"],
+    "explanation": "Container in einem Pod teilen sich Netzwerk und können über Volumes Daten austauschen."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Was ist die Hauptaufgabe von Kubernetes, wenn es zusammen mit Docker verwendet wird?",
+    "choices": [
+      "Um Docker-Images aus einem Dockerfile zu erstellen.",
+      "Für die Orchestrierung containerisierter Anwendungen.",
+      "Um viele Container automatisch zu verwalten und zu skalieren.",
+      "Um die Docker-Engine zu ersetzen."
+    ],
+    "answer": ["B","C"],
+    "explanation": "Kubernetes orchestriert Container über viele Hosts hinweg, skaliert und verwaltet sie automatisch."
+  },
+  {
+    "section": "Docker & Kubernetes",
+    "question": "Welche Vorteile bietet der Einsatz von Docker und Kubernetes für traditionelle ERP-Systeme?",
+    "choices": [
+      "Erhöhte Ausfallsicherheit durch automatisierte Neustarts und Lastverteilung",
+      "Modularisierung in Microservices zur besseren Skalierbarkeit",
+      "Reduzierung der Notwendigkeit von Sicherheitsupdates",
+      "Portabilität über verschiedene Umgebungen hinweg"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Docker/Kubernetes machen ERP-Systeme modular, portabel und resilient durch Microservices und Automatisierung."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche Merkmale gehören zu den physiologisch-biometrischen Verfahren?",
+    "choices": [
+      "Handvenenerkennung",
+      "Fingerabdruck",
+      "Sprachbiometrie",
+      "Gesichtserkennung",
+      "Gangartanalyse"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Physiologische Verfahren nutzen feste körperliche Merkmale wie Finger, Gesicht oder Handvenen."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche Merkmale zählen zu den verhaltensbiometrischen Verfahren?",
+    "choices": [
+      "Tastaturverhalten",
+      "Iris-Scan",
+      "Sprachbiometrie",
+      "Retina-Scan",
+      "Gangartanalyse"
+    ],
+    "answer": ["A","C","E"],
+    "explanation": "Verhaltensbiometrie nutzt individuelle Bewegungs- und Sprachmuster wie Tippverhalten, Sprache und Gang."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "In welchen Bereichen finden physiologische biometrische Verfahren Anwendung?",
+    "choices": [
+      "Finanzdienstleister (z. B. Zahlung per Fingerabdruck)",
+      "Tourismus (z. B. Self-Check-in im Hotel)",
+      "Automobilbranche (z. B. Fahrer-Authentifizierung)",
+      "Landwirtschaft",
+      "Grenzkontrollen (z. B. Gesichtserkennung)"
+    ],
+    "answer": ["A","B","C","E"],
+    "explanation": "Physiologische Verfahren werden in sicherheitsrelevanten und kundenorientierten Bereichen eingesetzt."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche Probleme werden bei biometrischen Verfahren genannt?",
+    "choices": [
+      "Fehlerrate",
+      "Function Creep",
+      "Umkehrbarkeit",
+      "Energieverbrauch von Datenzentren",
+      "Zwang"
+    ],
+    "answer": ["A","B","C","E"],
+    "explanation": "Probleme sind Fehlerraten, mögliche Zweckentfremdung (Function Creep), fehlende Änderbarkeit und Zwang."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche Herausforderungen ergeben sich für zukünftige Systeme?",
+    "choices": [
+      "Balance zwischen Sicherheit, Nutzerfreundlichkeit und Rechenaufwand",
+      "Angriffe auf Templates und Systeme",
+      "Steigende Hardwarekosten für Smartphones",
+      "Rechtliche Rahmenbedingungen wie DSGVO",
+      "Hoher Stromverbrauch bei KI-Modellen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Zukünftige Systeme müssen Datenschutz, Sicherheit und Benutzerfreundlichkeit ausgewogen gestalten."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche Zukunftsansätze für sichere biometrische Systeme werden genannt?",
+    "choices": [
+      "Verschlüsselung und Template-Schutz",
+      "Föderiertes Lernen",
+      "Privacy-Preserving Machine Learning",
+      "Speicherung von Rohbildern in der Cloud",
+      "Kombination mit KI-Techniken"
+    ],
+    "answer": ["A","B","C","E"],
+    "explanation": "Neue Ansätze kombinieren Datenschutz, KI und dezentrales Lernen, um biometrische Systeme sicherer zu machen."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was ist der Zweck des Preprocessings im biometrischen System?",
+    "choices": [
+      "Erstellung des mathematischen Templates",
+      "Verbesserung der Bildqualität des Roh-Scans",
+      "Reduzierung der Rillenlinien auf eine Ein-Pixel-Dicke (Thinning)",
+      "Vergleich des neuen Templates mit der Datenbank"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Preprocessing verbessert die Bildqualität und vereinfacht die Merkmalsextraktion durch Thinning."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche der folgenden sind individuelle Merkmale von Fingerabdrücken?",
+    "choices": [
+      "Delta",
+      "Bifurcation",
+      "Ridge Ending",
+      "Core"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Bifurcations und Ridge Endings sind individuelle, einzigartige Merkmale eines Fingerabdrucks."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was versteht man unter dem Begriff 1-zu-N-Matching?",
+    "choices": [
+      "Das System vergleicht das Template mit allen N Templates in der Datenbank.",
+      "Das System versucht, einen Fremden zu identifizieren.",
+      "Das System verifiziert die Identität einer Person gegen einen gespeicherten Datensatz.",
+      "Das ist die sogenannte Identifikation."
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Beim 1-zu-N-Matching wird die Identität einer Person durch Vergleich mit allen gespeicherten Datensätzen ermittelt."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was ist im Schritt Feature Extraction tatsächlich gespeichert?",
+    "choices": [
+      "Das Originalbild des Fingerabdrucks",
+      "Ein mathematisches Modell der Eigenschafts-Punkte (Template)",
+      "Die genaue Position, Art und Ausrichtung der Minutien",
+      "Ein generischer Hash-Wert ohne Rückschluss auf das Bild"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Im Template werden mathematische Beschreibungen der Merkmale (Minutien) gespeichert, nicht das Originalbild."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welcher Aspekt ist für die Datenschutzfreundlichkeit des biometrischen Systems besonders wichtig?",
+    "choices": [
+      "Hohe Geschwindigkeit des Preprocessings",
+      "Speicherung eines nicht-rekonstruierbaren Templates anstelle des Originalbildes",
+      "Nutzung des Scanners anstelle eines Passworts",
+      "Balance zwischen Sicherheit und Benutzerfreundlichkeit"
+    ],
+    "answer": "B",
+    "explanation": "Templates verhindern, dass das ursprüngliche biometrische Merkmal rekonstruiert werden kann."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was passiert, wenn der Ähnlichkeits-Score beim Feature Matching zu niedrig angesetzt wird?",
+    "choices": [
+      "Das System wird als sicherer empfunden.",
+      "Die Benutzerfreundlichkeit leidet, da die Person oft abgewiesen wird.",
+      "Es können Fremde fälschlicherweise Zugang erhalten.",
+      "Das Matching läuft schneller ab."
+    ],
+    "answer": "C",
+    "explanation": "Ein zu niedriger Schwellenwert erhöht die False-Accept-Rate, wodurch Unbefugte Zugang erhalten können."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was ist der Unterschied zwischen Verifikation und Identifikation?",
+    "choices": [
+      "Verifikation ist 1-zu-N, Identifikation ist 1-zu-1.",
+      "Verifikation fragt: 'Bist du es?', Identifikation fragt: 'Wer bist du?'",
+      "Verifikation benötigt oft eine zusätzliche Kennung (z. B. Username).",
+      "Identifikation wird oft im Bereich physische Zugangskontrolle verwendet."
+    ],
+    "answer": ["B","C"],
+    "explanation": "Verifikation bestätigt eine behauptete Identität; Identifikation sucht diese erst durch Abgleich mit allen Datensätzen."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Wie heißt der Vorgang, bei dem der Nutzer seine Identität nachweist?",
+    "choices": ["Autorisierung","Authentisierung","Auditierung","Authentifizierung"],
+    "answer": "B",
+    "explanation": "Authentisierung bezeichnet den Akt des Nachweises der eigenen Identität durch den Nutzer."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Wie heißt der Vorgang, bei dem das System die Echtheit des Nutzers überprüft?",
+    "choices": ["Autorisierung","Authentisierung","Auditierung","Authentifizierung"],
+    "answer": "D",
+    "explanation": "Authentifizierung ist die Systemprüfung der Identität des Nutzers."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was ist die Aufgabe der Autorisierung?",
+    "choices": [
+      "Vergabe von Zugriffsrechten an authentifizierte Nutzer",
+      "Überprüfung biometrischer Merkmale",
+      "Erstellung von Templates",
+      "Validierung von Passwörtern"
+    ],
+    "answer": "A",
+    "explanation": "Autorisierung legt fest, welche Aktionen ein bereits authentifizierter Nutzer ausführen darf."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Was versteht man unter Biometrie?",
+    "choices": [
+      "Messung biologischer und verhaltensbezogener Merkmale",
+      "Verwaltung von Benutzerkonten",
+      "Erkennung individueller Merkmale",
+      "Auswertung von Nutzerstatistiken"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Biometrie beschreibt die Messung und Erkennung einzigartiger physiologischer oder verhaltensbasierter Merkmale."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche Ziele verfolgt biometrische Authentifizierung?",
+    "choices": [
+      "Schutz vor Hackern",
+      "Eindeutigkeit beim Login",
+      "Reduzierung des Speicherbedarfs",
+      "Komfortsteigerung"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Sie bietet eindeutige, komfortable und sichere Zugangsmechanismen."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Warum entwickelte sich biometrische Authentifizierung erst spät im 20. Jahrhundert?",
+    "choices": [
+      "Fehlende Rechenkapazität",
+      "Geringe Wirtschaftlichkeit",
+      "Staatliche Regulierungen",
+      "Unklare Passwortrichtlinien"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Fehlende Rechenleistung und hohe Kosten verhinderten lange Zeit die breite Nutzung biometrischer Verfahren."
+  },
+  {
+    "section": "Biometrische Authentifizierung",
+    "question": "Welche wirtschaftlichen Vorteile bietet biometrische Authentifizierung?",
+    "choices": [
+      "Kosteneinsparungen",
+      "Verbesserter Schutz vor Angriffen",
+      "Reduzierung der Marketingausgaben",
+      "Beschleunigung von Prozessen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Biometrie senkt Kosten durch Prozessoptimierung, steigert Sicherheit und Effizienz."
+  },
+    {
+    "section": "Cloud Computing",
+    "question": "Was beschreibt die Definition von Cloud Computing am besten?",
+    "choices": [
+      "Bereitstellung von IT-Ressourcen über zentrale Rechenzentren mit fester Kapazität",
+      "Nutzung von IT-Infrastruktur über das Internet mit dynamischer Bereitstellung und verbrauchsabhängiger Abrechnung",
+      "Outsourcing von IT-Services an externe Anbieter ohne Skalierungsmechanismen",
+      "Bereitstellung von Software und Infrastruktur ohne flexible Abrechnung"
+    ],
+    "answer": "B",
+    "explanation": "Cloud Computing ermöglicht dynamische Bereitstellung von IT-Ressourcen über das Internet mit Pay-per-Use-Abrechnung."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bedeutet On-Demand Self-Service im Cloud Computing?",
+    "choices": [
+      "Nutzer können Ressourcen flexibel und ohne Eingriff des Anbieters selbst anfordern",
+      "Ressourcen lassen sich über standardisierte Schnittstellen bereitstellen",
+      "Ressourcen werden ausschließlich manuell freigegeben",
+      "Verfügbarkeit ist an Wartungsfenster gebunden"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Beim On-Demand Self-Service können Nutzer über Portale oder APIs selbstständig Ressourcen anfordern."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bezeichnet Broad Network Access im Cloud Computing?",
+    "choices": [
+      "Zugriff auf Cloud-Dienste über verschiedene Endgeräte",
+      "Nutzung ortsunabhängig über das Internet",
+      "Beschränkung auf Unternehmensnetze",
+      "Lokale Vernetzung ohne Internetzugang"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Broad Network Access bedeutet breiten, ortsunabhängigen Zugriff über das Internet mit gängigen Geräten."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was beschreibt Resource Pooling am besten?",
+    "choices": [
+      "Ressourcen werden dediziert zugewiesen",
+      "Ressourcen werden von mehreren Nutzern gemeinsam genutzt und nach Bedarf verteilt",
+      "Nutzer stellen Hardware selbst bereit",
+      "Daten werden nur in einer Region gespeichert"
+    ],
+    "answer": "B",
+    "explanation": "Resource Pooling teilt Ressourcen dynamisch zwischen Nutzern – physische Hardware bleibt verborgen."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bedeutet Rapid Elasticity im Cloud Computing?",
+    "choices": [
+      "Nutzer tauschen Hardware beliebig aus",
+      "Manuelle Konfiguration der Dienste",
+      "Schnelle und automatisierte Anpassung an Nachfrage",
+      "Nahezu unbegrenzte Skalierung von Ressourcen"
+    ],
+    "answer": ["C","D"],
+    "explanation": "Rapid Elasticity beschreibt die automatisierte, dynamische Skalierung von Ressourcen nach Bedarf."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was versteht man unter Measured Service im Cloud Computing?",
+    "choices": [
+      "Dienste werden pauschal abgerechnet",
+      "Nutzung wird überwacht, gemessen und nach Verbrauch abgerechnet",
+      "Nutzer bestimmen eigene Abrechnungsmodelle",
+      "Anbieter erhebt keine Nutzungsdaten"
+    ],
+    "answer": "B",
+    "explanation": "Measured Service bedeutet, dass Nutzung überwacht und nach tatsächlichem Verbrauch abgerechnet wird."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Wodurch unterscheiden sich PaaS und IaaS?",
+    "choices": [
+      "PaaS bietet Entwicklungsumgebungen, IaaS stellt Infrastruktur bereit",
+      "PaaS stellt nur Hardware, IaaS fertige Anwendungen bereit",
+      "IaaS beinhaltet immer Datenbanken, PaaS nur Rechenleistung",
+      "Beide Modelle sind identisch"
+    ],
+    "answer": "A",
+    "explanation": "IaaS bietet Infrastruktur (Server, Speicher), PaaS zusätzlich Entwicklungs- und Laufzeitumgebungen."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Welche Aufgaben übernimmt Virtualisierung in der Cloud?",
+    "choices": [
+      "Abstraktion physischer Hardware in virtuelle Maschinen und Container",
+      "Verhinderung von Ressourcen-Sharing",
+      "Manuelle Ressourcenzuweisung durch Nutzer",
+      "Dynamische Zuweisung von CPU, Speicher und Netzwerk an virtuelle Instanzen"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Virtualisierung abstrahiert Hardware und ermöglicht flexible Ressourcenzuweisung in der Cloud."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was versteht man unter elastischer Skalierung in der Cloud?",
+    "choices": [
+      "Hardware wird vor Nutzung gekauft",
+      "Ressourcen passen sich automatisch der Nachfrage an",
+      "Kapazität wird jährlich angepasst",
+      "Alle Ressourcen bleiben dauerhaft reserviert"
+    ],
+    "answer": "B",
+    "explanation": "Elastische Skalierung bedeutet automatische Anpassung von Kapazitäten an tatsächliche Auslastung."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Wie funktioniert das Abrechnungsmodell Pay-per-Use?",
+    "choices": [
+      "Feste monatliche Gebühren",
+      "Abrechnung nach tatsächlichem Ressourcenverbrauch",
+      "Kosten werden jährlich pauschal berechnet",
+      "Cloud-Nutzung ist kostenlos"
+    ],
+    "answer": "B",
+    "explanation": "Beim Pay-per-Use-Modell zahlen Kunden nur für tatsächlich genutzte Ressourcen."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Für welchen Nutzerkreis ist eine Private Cloud ausgelegt?",
+    "choices": [
+      "Weltweit öffentlich",
+      "Definierte Organisation oder Personengruppe",
+      "Nur Forschungseinrichtungen",
+      "Solo-Selbstständige"
+    ],
+    "answer": "B",
+    "explanation": "Private Clouds sind für klar definierte Organisationen oder Gruppen gedacht."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was kennzeichnet die Public Cloud?",
+    "choices": [
+      "Exklusive Ein-Kunden-Hardware ohne Internet",
+      "Vom Provider betriebene Multi-Tenant-Umgebung mit Self-Service und nutzungsabhängiger Abrechnung",
+      "Nur für Entwicklung geeignet",
+      "Festpreis ohne Service-Level-Agreements"
+    ],
+    "answer": "B",
+    "explanation": "Public Clouds bieten standardisierte, gemeinsam genutzte Infrastrukturen mit Self-Service und Pay-per-Use-Abrechnung."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was beschreibt Hybrid Cloud korrekt?",
+    "choices": [
+      "Alle Services werden lokal betrieben",
+      "Cloud für hauptsächliche SaaS-Nutzung",
+      "Ein Mandant pro Hardware",
+      "Kombination aus Private und Public Cloud"
+    ],
+    "answer": "D",
+    "explanation": "Hybrid Clouds kombinieren Public- und Private-Infrastrukturen, je nach Schutz- und Leistungsanforderung."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Wofür steht Insourced?",
+    "choices": [
+      "Eigenbetrieb durch das Unternehmen",
+      "Vollbetrieb beim Cloud-Provider",
+      "Betrieb durch externen Dienstleister auf Kundensystemen",
+      "Betrieb ohne Verträge"
+    ],
+    "answer": "A",
+    "explanation": "Insourced bedeutet, dass der Cloud-Betrieb intern im Unternehmen erfolgt."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bedeutet Managed im Sourcing-Kontext?",
+    "choices": [
+      "Kunde betreibt alles selbst",
+      "Externer Dienstleister betreibt Cloud-Service nach Kundenvorgaben",
+      "Provider betreibt alles, Kunde nutzt nur",
+      "Cloud-Betrieb ohne Verträge"
+    ],
+    "answer": "B",
+    "explanation": "Beim Managed-Modell übernimmt ein Dienstleister den Betrieb nach definierten Kundenvorgaben."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bedeutet Multi-Tenancy?",
+    "choices": [
+      "Ein physischer Server pro Nutzer",
+      "Gemeinsame Plattformressourcen für mehrere Mandanten bei logischer Trennung",
+      "Nutzung ohne Service-Level-Agreements",
+      "Multiple Clouds gleichzeitig"
+    ],
+    "answer": "B",
+    "explanation": "Multi-Tenancy ermöglicht mehreren Mandanten die Nutzung gemeinsamer Infrastruktur bei logischer Isolation."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bedeutet Outsourced?",
+    "choices": [
+      "Provider besitzt und betreibt Plattform vollständig",
+      "Dienstleister betreibt Cloud auf Kundensystemen",
+      "Kunde betreibt alles selbst",
+      "Nur im öffentlichen Sektor zulässig"
+    ],
+    "answer": "A",
+    "explanation": "Beim Outsourcing übernimmt der externe Provider den gesamten Betrieb der Cloud-Plattform."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was ist der Unterschied zwischen Service- und Deployment-Modellen?",
+    "choices": [
+      "Beide beschreiben Hardware",
+      "Service-Modelle beschreiben den Dienst, Deployment-Modelle den Betriebsort",
+      "Service-Modelle gelten nur on-premise",
+      "Deployment-Modelle legen SLAs fest"
+    ],
+    "answer": "B",
+    "explanation": "Service-Modelle definieren die Art des Cloud-Dienstes, Deployment-Modelle beschreiben die Betriebsform (z. B. Public, Private)."
+  },
+  {
+    "section": "Cloud Computing",
+    "question": "Was bedeutet Shared Responsibility?",
+    "choices": [
+      "Bei SaaS hat der Kunde keine Pflichten",
+      "Bei IaaS trägt der Provider alle Aufgaben",
+      "Verantwortung verschiebt sich je nach Service-Modell",
+      "Betreiber und Nutzer teilen sich dieselbe Infrastruktur"
+    ],
+    "answer": "C",
+    "explanation": "Im Shared-Responsibility-Modell teilen sich Kunde und Anbieter die Verantwortung – je nach Servicetyp unterschiedlich."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche zentrale Verantwortung hat IT-Governance?",
+    "choices": [
+      "Sicherstellen, dass IT einen Wertbeitrag für Unternehmensziele liefert",
+      "Sicherstellen, dass IT-Ressourcen kontrolliert eingesetzt werden",
+      "Sicherstellen, dass IT-Risiken berücksichtigt werden",
+      "Sicherstellen, dass IT-Investitionen ausschließlich Kosten sparen"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IT-Governance stellt sicher, dass IT strategisch ausgerichtet ist, Ressourcen effizient genutzt werden und Risiken gesteuert sind."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welches Ziel verfolgt IT-Governance in Bezug auf Investitionen?",
+    "choices": [
+      "Investitionen sollen mit Unternehmenszielen übereinstimmen",
+      "Investitionen sollen messbaren Geschäftswert erzeugen",
+      "Investitionen sollen ausschließlich neue Technologien testen",
+      "Investitionen sollen nur kurzfristige Einsparungen bringen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "IT-Governance richtet Investitionen an Unternehmenszielen aus und bewertet deren strategischen Nutzen."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Aufgaben gehören zur IT-Governance?",
+    "choices": [
+      "Evaluieren",
+      "Vorgeben",
+      "Betreiben",
+      "Planen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Governance bewertet IT in Hinblick auf Geschäftsziele und gibt Richtlinien und Rahmenbedingungen vor."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Wofür ist ITIL primär gedacht?",
+    "choices": [
+      "IT-Service-Management (ITSM)",
+      "Optimierung von Service-Prozessen",
+      "Unternehmensstrategie-Definition",
+      "Cybersecurity-Framework"
+    ],
+    "answer": ["A","B"],
+    "explanation": "ITIL ist ein Framework für IT-Service-Management mit Fokus auf Prozessoptimierung und Servicequalität."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Was steht im Zentrum von ITIL?",
+    "choices": [
+      "Kunde",
+      "Wertbeitrag",
+      "Standardisierung von Hardware",
+      "Governance-Richtlinien"
+    ],
+    "answer": ["A","B"],
+    "explanation": "ITIL stellt Kundennutzen und Wertbeitrag der IT ins Zentrum seiner Serviceorientierung."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Was unterscheidet IT-Governance von IT-Management?",
+    "choices": [
+      "Governance gibt Rahmen vor, Management setzt um",
+      "Governance ist strategisch verankert",
+      "Governance ist rein operativ",
+      "Management ist ausschließlich strategisch"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Governance definiert strategische Leitlinien; Management setzt diese operativ um."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Prinzipien sind Grundprinzipien der ISO/IEC 38500?",
+    "choices": [
+      "Verantwortung",
+      "Menschliches Verhalten",
+      "Leistung",
+      "Rechenschaftspflicht"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "ISO/IEC 38500 legt Prinzipien wie Verantwortung, Leistung und menschliches Verhalten als Basis guter IT-Führung fest."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Warum ist die Trennung von Governance und Management in COBIT wichtig?",
+    "choices": [
+      "Sie verhindert Interessenkonflikte zwischen Steuerung und Ausführung",
+      "Sie reduziert Kosten unmittelbar",
+      "Sie erhöht technische Effizienz",
+      "Sie erleichtert Outsourcing"
+    ],
+    "answer": "A",
+    "explanation": "Die Trennung in COBIT verhindert Rollenkonflikte, da Governance strategisch und Management operativ arbeitet."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Aussagen beschreiben die Beziehung von COBIT zu ITIL?",
+    "choices": [
+      "COBIT gibt das 'Was' vor, ITIL unterstützt beim 'Wie'",
+      "ITIL ersetzt COBIT vollständig",
+      "Beide können sich ergänzen",
+      "COBIT ist ein Unterteil von ITIL"
+    ],
+    "answer": ["A","C"],
+    "explanation": "COBIT definiert den Rahmen (Was), ITIL liefert praktische Umsetzungsmethoden (Wie)."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Hauptziele verfolgt ein IT-Audit?",
+    "choices": [
+      "Überprüfung der Übereinstimmung mit Richtlinien",
+      "Planung neuer IT-Produkte",
+      "Sicherstellung der Informationssicherheit",
+      "Bewertung der Wirksamkeit von IT-Kontrollen"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "IT-Audits prüfen die Einhaltung von Vorgaben und die Wirksamkeit von IT-Kontrollen."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Kernfrage beschreibt IT-Governance?",
+    "choices": [
+      "Tun wir die richtigen Dinge?",
+      "Tun wir die Dinge rechtskonform?",
+      "Tun wir die Dinge richtig?",
+      "Wie setzen wir die Dinge um?"
+    ],
+    "answer": "A",
+    "explanation": "Governance konzentriert sich auf strategische Relevanz – ob die IT die richtigen Dinge für das Unternehmen tut."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Rollen sind typischerweise in einer IT-Governance-Struktur eingebunden?",
+    "choices": [
+      "Vorstand / Geschäftsführung",
+      "IT-Projektleiter",
+      "Endanwender",
+      "CIO (Chief Information Officer)"
+    ],
+    "answer": ["A","D"],
+    "explanation": "Governance wird vom Top-Management getragen – typischerweise Vorstand und CIO."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Wie unterstützt ITIL IT-Governance?",
+    "choices": [
+      "Fokussiert ausschließlich auf Hardware-Management",
+      "Trennt Governance und Management strikt",
+      "Fokus auf Kunden und Wertbeitrag",
+      "Standardisierte Prozesse für IT-Services"
+    ],
+    "answer": ["C","D"],
+    "explanation": "ITIL fördert Governance durch kundenzentrierte, standardisierte IT-Service-Prozesse."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche Themen sind eng mit IT-Governance verbunden?",
+    "choices": [
+      "IT-Risikomanagement",
+      "IT-Compliance",
+      "Data Science",
+      "IT-Einkauf"
+    ],
+    "answer": ["A","B"],
+    "explanation": "IT-Governance umfasst Risikomanagement und Compliance; Data Science und Einkauf sind operative Themen."
+  },
+  {
+    "section": "IT-Governance",
+    "question": "Welche typischen Ziele verfolgt IT-Governance?",
+    "choices": [
+      "Förderung von Chaos und Unsicherheit",
+      "Reduzierung von Risiken im IT-Betrieb",
+      "Sicherstellen, dass IT die Unternehmensstrategie unterstützt",
+      "Verbesserung der Transparenz in Entscheidungen"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "Ziele sind strategische Ausrichtung, Risikominimierung und transparente IT-Entscheidungen."
+  },
+    {
+    "section": "IT-Projektmanagement",
+    "question": "Was zeichnet ein Projekt grundsätzlich aus?",
+    "choices": [
+      "Einmaligkeit der Bedingungen",
+      "Klar definierter Anfang und Abschluss",
+      "Wiederkehrende Routineaufgaben",
+      "Einsatz projektbezogener Ressourcen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Projekte sind einmalige, zeitlich begrenzte Vorhaben mit spezifischem Ziel und eigenem Ressourceneinsatz."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind die typischen Phasen eines IT-Projekts?",
+    "choices": [
+      "Initialisierung",
+      "Planung",
+      "Durchführung",
+      "Abschluss"
+    ],
+    "answer": ["A","B","C","D"],
+    "explanation": "Die klassischen Phasen sind Initialisierung, Planung, Durchführung und Abschluss, oft in zyklischen Iterationen."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was versteht man unter dem 'Magischen Dreieck' im Projektmanagement?",
+    "choices": [
+      "Qualität, Budget, Zeit",
+      "Funktionalität, Nutzerfreundlichkeit, Dokumentation",
+      "Kosten, Zeit, Leistung",
+      "Qualität, Risiken, Kommunikation"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Das magische Dreieck beschreibt die Abhängigkeit zwischen Kosten, Zeit und Leistung (bzw. Qualität)."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Projektorganisationsformen gibt es?",
+    "choices": [
+      "Reine Projektorganisation",
+      "Matrixorganisation",
+      "Kooperationsorganisation",
+      "Stabsorganisation"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Die klassischen Organisationsformen sind reine Projekt-, Matrix- und Stabsorganisation."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind Hauptaufgaben eines Projektleiters?",
+    "choices": [
+      "Koordination der Projektbeteiligten",
+      "Zuweisung von Ressourcen",
+      "Projektplanung und -steuerung",
+      "Festlegung der Unternehmensstrategie"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Projektleiter koordinieren Team, Ressourcen und Zeitplanung – strategische Unternehmensführung gehört nicht dazu."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was beschreibt den Begriff 'Stakeholder'?",
+    "choices": [
+      "Personen, die von einem Projekt betroffen sind oder Einfluss nehmen können",
+      "Ausschließlich die Projektleitung",
+      "Nur externe Projektbeteiligte",
+      "Nur interne Mitarbeiter"
+    ],
+    "answer": "A",
+    "explanation": "Stakeholder sind alle Personen oder Gruppen, die direkt oder indirekt vom Projekt betroffen sind."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind typische Risiken in IT-Projekten?",
+    "choices": [
+      "Unklare Anforderungen",
+      "Fehlende Kommunikation",
+      "Technologische Änderungen",
+      "Geringe Motivation im Team"
+    ],
+    "answer": ["A","B","C","D"],
+    "explanation": "Alle genannten Punkte zählen zu typischen Risiken, die IT-Projekte gefährden können."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind Maßnahmen zur Risikovermeidung im IT-Projektmanagement?",
+    "choices": [
+      "Regelmäßige Kommunikation",
+      "Frühe Risikoanalyse",
+      "Ignorieren kleinerer Risiken",
+      "Einbeziehung erfahrener Teammitglieder"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Kommunikation, Frühwarnsysteme und erfahrene Teams helfen, Projektrisiken zu vermeiden."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was beschreibt das Wasserfallmodell?",
+    "choices": [
+      "Lineares, sequenzielles Vorgehensmodell",
+      "Iteratives Modell mit vielen Schleifen",
+      "Parallele Entwicklung und Testung",
+      "Ein agiles Vorgehensmodell"
+    ],
+    "answer": "A",
+    "explanation": "Das Wasserfallmodell arbeitet sequenziell und geht von klar definierten Phasen ohne Rücksprung aus."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind Vorteile des Wasserfallmodells?",
+    "choices": [
+      "Hohe Planbarkeit",
+      "Einfache Strukturierung",
+      "Geringer Kommunikationsaufwand",
+      "Hohe Flexibilität"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Wasserfallprojekte sind klar strukturiert und gut planbar, jedoch wenig flexibel bei Änderungen."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Prinzipien kennzeichnen agile Methoden?",
+    "choices": [
+      "Iteratives Vorgehen",
+      "Selbstorganisierte Teams",
+      "Starke Hierarchie",
+      "Kundenzentrierung"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Agile Methoden setzen auf iterative Entwicklung, Selbstorganisation und kontinuierlichen Kundennutzen."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Rollen gibt es in Scrum?",
+    "choices": [
+      "Product Owner",
+      "Scrum Master",
+      "Developer Team",
+      "Projektcontroller"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Scrum umfasst Product Owner, Scrum Master und das Entwicklungsteam – kein klassischer Controller."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind typische Artefakte in Scrum?",
+    "choices": [
+      "Product Backlog",
+      "Sprint Backlog",
+      "Burndown Chart",
+      "Scope Statement"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Scrum-Artefakte sind Product Backlog, Sprint Backlog und Burndown Charts zur Fortschrittsdarstellung."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was sind Vorteile agiler Methoden gegenüber klassischen Ansätzen?",
+    "choices": [
+      "Höhere Flexibilität",
+      "Schnelleres Feedback",
+      "Stärkere Kundenorientierung",
+      "Geringere Änderungsfähigkeit"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Agile Methoden fördern Anpassungsfähigkeit, frühes Feedback und Kundeneinbindung."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Probleme treten häufig bei IT-Projekten auf?",
+    "choices": [
+      "Unklare Ziele",
+      "Fehlende Ressourcen",
+      "Übermäßige Dokumentation",
+      "Kommunikationsmängel"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Unklare Zieldefinition, Ressourcenknappheit und Kommunikationsfehler sind Hauptursachen für IT-Projektprobleme."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Methoden eignen sich zur Erfolgskontrolle von IT-Projekten?",
+    "choices": [
+      "Earned Value Analyse",
+      "Kosten-Nutzen-Analyse",
+      "Stimmungsbarometer",
+      "SWOT-Analyse"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Zur Erfolgskontrolle werden Methoden wie Earned Value, Kosten-Nutzen oder SWOT verwendet."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Aussage trifft auf Meilensteine im Projektmanagement zu?",
+    "choices": [
+      "Sie markieren wichtige Kontrollpunkte",
+      "Sie sind beliebig verschiebbar",
+      "Sie dienen zur Fortschrittsbewertung",
+      "Sie sind keine Bestandteile der Projektplanung"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Meilensteine markieren überprüfbare Projektabschnitte zur Fortschritts- und Zielkontrolle."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was bedeutet Change Management im IT-Projektkontext?",
+    "choices": [
+      "Strukturierter Umgang mit Änderungen während des Projekts",
+      "Ignorieren von Änderungsanforderungen",
+      "Systematische Erfassung, Bewertung und Umsetzung von Änderungen",
+      "Vermeidung aller Änderungen"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Change Management regelt, wie Änderungen im Projekt identifiziert, bewertet und umgesetzt werden."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Was ist ein typisches Ziel im agilen Projektmanagement?",
+    "choices": [
+      "Lieferung von Inkrementen mit Mehrwert",
+      "Flexibilität bei Änderungen",
+      "Minimierung von Kommunikation",
+      "Langfristige Planstabilität"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Agilität fokussiert sich auf Mehrwert durch iterative Lieferungen und flexible Anpassungen."
+  },
+  {
+    "section": "IT-Projektmanagement",
+    "question": "Welche Vorteile bietet hybrides Projektmanagement?",
+    "choices": [
+      "Kombination von agilen und klassischen Elementen",
+      "Einheitliche Vorgehensweise für alle Projekte",
+      "Mehr Flexibilität bei gleichzeitiger Planbarkeit",
+      "Abschaffung von Projektrollen"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Hybride Ansätze kombinieren agile Flexibilität mit klassischer Planbarkeit."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was versteht man unter Künstlicher Intelligenz (KI)?",
+    "choices": [
+      "Systeme, die menschliches Denken und Lernen nachahmen",
+      "Reine Rechenoperationen ohne Entscheidungslogik",
+      "Ein Unterbereich der klassischen Informatik ohne Praxisbezug",
+      "Nur Hardware zur Simulation menschlicher Gehirne"
+    ],
+    "answer": "A",
+    "explanation": "KI bezeichnet Systeme, die menschenähnliche Intelligenzleistungen wie Lernen, Planen oder Entscheiden erbringen."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was beschreibt Maschinelles Lernen (ML) am besten?",
+    "choices": [
+      "Programmieren durch explizite Regeln",
+      "Selbstständiges Erkennen von Mustern in Daten",
+      "Zufälliges Generieren von Ergebnissen",
+      "Manuelles Trainieren neuronaler Netze"
+    ],
+    "answer": "B",
+    "explanation": "ML-Systeme lernen Muster und Zusammenhänge aus Beispieldaten, ohne explizit programmiert zu werden."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Welche Lernarten gibt es im Maschinellen Lernen?",
+    "choices": [
+      "Überwachtes Lernen (Supervised Learning)",
+      "Unüberwachtes Lernen (Unsupervised Learning)",
+      "Verstärkendes Lernen (Reinforcement Learning)",
+      "Organisches Lernen (Organic Learning)"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Die drei Hauptarten sind überwachtes, unüberwachtes und verstärkendes Lernen – ‚organisches Lernen‘ existiert nicht."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was sind typische Anwendungsbereiche von KI im ERP-System?",
+    "choices": [
+      "Prognosen von Absatz- oder Lagerdaten",
+      "Automatische Rechnungsprüfung",
+      "Spracherkennung im Support",
+      "Hardwareüberwachung in Echtzeit"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "KI wird im ERP z. B. für Vorhersagen, Automatisierung und Sprachverarbeitung eingesetzt."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was sind typische Vorteile von KI in ERP-Systemen?",
+    "choices": [
+      "Schnellere Entscheidungen durch Datenanalyse",
+      "Automatisierte Routineprozesse",
+      "Verbesserte Prognosegenauigkeit",
+      "Erhöhte Prozesskomplexität"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "KI beschleunigt Entscheidungen, automatisiert Prozesse und erhöht die Qualität von Prognosen."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Wie funktioniert ein künstliches neuronales Netz (KNN)?",
+    "choices": [
+      "Es verarbeitet Eingaben über miteinander verbundene Neuronen, die gewichtet und aktiviert werden.",
+      "Es speichert feste Entscheidungsregeln im Code.",
+      "Es besteht ausschließlich aus linearen Gleichungen.",
+      "Es simuliert Hardware-Komponenten eines Prozessors."
+    ],
+    "answer": "A",
+    "explanation": "Ein KNN besteht aus künstlichen Neuronen, die Eingaben verarbeiten, gewichten und nichtlineare Aktivierungen berechnen."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was sind typische Bestandteile eines neuronalen Netzes?",
+    "choices": [
+      "Eingabeschicht",
+      "Versteckte Schichten (Hidden Layers)",
+      "Ausgabeschicht",
+      "Datenbankindex"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Ein neuronales Netz besteht aus Input-, Hidden- und Output-Layern – Datenbankindex ist kein Bestandteil."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was passiert beim Training eines neuronalen Netzes?",
+    "choices": [
+      "Gewichte werden so angepasst, dass Fehler minimiert werden",
+      "Neuronale Verbindungen werden zufällig gelöscht",
+      "Neue Neuronen werden automatisch generiert",
+      "Das Netz erstellt selbstständig neue Lernziele"
+    ],
+    "answer": "A",
+    "explanation": "Beim Training werden Gewichte durch Backpropagation angepasst, um die Abweichung zwischen Vorhersage und Ziel zu minimieren."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was beschreibt Deep Learning?",
+    "choices": [
+      "Einsatz sehr tiefer neuronaler Netze mit mehreren Schichten",
+      "Regelbasierte KI ohne Daten",
+      "Nur grafische Simulation von Gehirnaktivitäten",
+      "Oberflächliche Mustererkennung"
+    ],
+    "answer": "A",
+    "explanation": "Deep Learning nutzt mehrschichtige neuronale Netze zur komplexen Merkmalsextraktion."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Welche Rolle spielt Aktivierungsfunktionen in neuronalen Netzen?",
+    "choices": [
+      "Sie bestimmen, wann ein Neuron 'aktiv' wird.",
+      "Sie führen Nichtlinearität in das Modell ein.",
+      "Sie speichern Trainingsdaten.",
+      "Sie verhindern Gewichtsanpassungen."
+    ],
+    "answer": ["A","B"],
+    "explanation": "Aktivierungsfunktionen wie ReLU oder Sigmoid erzeugen Nichtlinearität und steuern die Aktivierung eines Neurons."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was ist der Unterschied zwischen KI, ML und Deep Learning?",
+    "choices": [
+      "KI ist das übergeordnete Konzept, ML ein Teilbereich und Deep Learning eine spezielle ML-Methode.",
+      "KI und ML sind identisch.",
+      "Deep Learning ist unabhängig von ML.",
+      "ML ist Hardware, KI ist Software."
+    ],
+    "answer": "A",
+    "explanation": "KI ist das Oberthema, ML eine Methode zur Automatisierung von Lernen, und Deep Learning ein spezieller Ansatz mit neuronalen Netzen."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Welche Herausforderungen bestehen beim Einsatz von KI im ERP?",
+    "choices": [
+      "Datenqualität und -menge",
+      "Erklärbarkeit der Modelle (Explainable AI)",
+      "Kostenlose Infrastruktur",
+      "Komplexität der Integration"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Herausforderungen sind Datenqualität, mangelnde Erklärbarkeit und Integrationsaufwand."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Was ist der Zweck von Explainable AI (XAI)?",
+    "choices": [
+      "Nachvollziehbarkeit von Entscheidungen und Modellen",
+      "Erhöhung der Modellgeschwindigkeit",
+      "Zufällige Erklärungen durch neuronale Netze",
+      "Reduzierung der Trainingsdaten"
+    ],
+    "answer": "A",
+    "explanation": "XAI soll die Entscheidungslogik komplexer KI-Modelle nachvollziehbar und transparent machen."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Wie können neuronale Netze im ERP genutzt werden?",
+    "choices": [
+      "Automatische Klassifizierung von Kundenanfragen",
+      "Erkennung von Betrugsmustern",
+      "Optimierung von Produktionsplänen",
+      "Auswertung von Quellcode"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Neuronale Netze unterstützen ERP-Prozesse durch Klassifizierung, Mustererkennung und Optimierung."
+  },
+  {
+    "section": "KI & Neuronale Netze (ERP-Systeme)",
+    "question": "Welche ethischen Aspekte spielen bei KI im ERP eine Rolle?",
+    "choices": [
+      "Datenschutz",
+      "Bias-Vermeidung",
+      "Erklärbarkeit",
+      "Steigerung der Gewinne"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Ethische KI verlangt Datenschutz, Fairness und Transparenz – wirtschaftliche Ziele sind sekundär."
+  },
+
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ist eine Turingmaschine?",
+    "choices": [
+      "Spielekonsole",
+      "Theoretisches Modell einer universellen Rechenmaschine",
+      "Der erste PC",
+      "Ein Konzept, das Zufallsvariablen bestimmt"
+    ],
+    "answer": "B",
+    "explanation": "Die Turingmaschine ist ein theoretisches Modell einer universellen Rechenmaschine, entwickelt von Alan Turing."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ersetzte die Vakuumröhren in Computern?",
+    "choices": [
+      "Grafikkarten",
+      "Mikroprozessoren",
+      "Transistoren",
+      "Vakuumprozessoren"
+    ],
+    "answer": "C",
+    "explanation": "Transistoren lösten Vakuumröhren ab – sie waren kleiner, schneller und energieeffizienter."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Welche Architektur ist die Grundlage fast aller heutigen Computer?",
+    "choices": [
+      "Turing-Architektur",
+      "Von-Neumann-Architektur",
+      "Quanten-Architektur",
+      "Internet-Architektur"
+    ],
+    "answer": "B",
+    "explanation": "Die Von-Neumann-Architektur ist das dominierende Konzept moderner Computer mit gemeinsamem Speicher für Daten und Programme."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ist ein Mikroprozessor?",
+    "choices": [
+      "GPU",
+      "Motherboard",
+      "Kleiner Speicher",
+      "CPU auf einem Chip"
+    ],
+    "answer": "D",
+    "explanation": "Ein Mikroprozessor ist eine CPU, die alle Rechen- und Steuerfunktionen auf einem einzigen Chip integriert."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ermöglicht TCP/IP?",
+    "choices": [
+      "Miniaturisierung der Elektronik",
+      "Kommunikation verschiedener Netzwerke",
+      "Speicherung großer Datenmengen",
+      "Kommunikation per E-Mail"
+    ],
+    "answer": "B",
+    "explanation": "TCP/IP ist die Protokollfamilie, die Kommunikation über verschiedene Netzwerke hinweg ermöglicht – Grundlage des Internets."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was war das ARPANET?",
+    "choices": [
+      "Web1",
+      "Web3",
+      "Theoretisches Rechenmodell",
+      "Ursprung des Internets"
+    ],
+    "answer": "D",
+    "explanation": "Das ARPANET war das erste paketvermittelte Netzwerk und direkter Vorläufer des heutigen Internets."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was sind Anwendungsbereiche von Blockchains?",
+    "choices": [
+      "Web3",
+      "NFTs",
+      "Quantum Computing",
+      "Kryptowährungen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Blockchains bilden die Basis für Kryptowährungen, NFTs und Web3 – ein dezentrales Internetkonzept."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Welche Eigenschaften machen eine Blockchain fälschungssicher?",
+    "choices": [
+      "Moderne Firewalls",
+      "Gute Verschlüsselung",
+      "Dezentralisierung",
+      "Einsatz von Hashfunktionen"
+    ],
+    "answer": ["C","D"],
+    "explanation": "Dezentralisierung und kryptografische Hashes sichern die Integrität der Blockchain-Daten."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Welches Merkmal war typisch für Dotcom-Unternehmen vor der Jahr-2000-Blase?",
+    "choices": [
+      "Hohe Gewinne, aber schlecht bewertet",
+      "Niedrige Gewinne, aber hohe Bewertung",
+      "Hohe staatliche Investitionen",
+      "Überbewertete Baukredite"
+    ],
+    "answer": "B",
+    "explanation": "Viele Dotcom-Unternehmen waren hoch bewertet, obwohl sie kaum Gewinne erzielten – Spekulation trieb die Kurse."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Welche Vorteile bieten Microservices gegenüber monolithischen Anwendungen?",
+    "choices": [
+      "Schnellere Entwicklung",
+      "Flexibilität",
+      "Bessere Wartbarkeit",
+      "Geringere Codebasis"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Microservices sind unabhängig und modular, was Flexibilität, Wartbarkeit und Entwicklungszeit verbessert."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ist das Hauptziel der Virtualisierung?",
+    "choices": [
+      "Erhöhung der physischen Hardware",
+      "Hosting mehrerer Systeme auf einer Hardwarekomponente",
+      "Optimierung von Betriebssystemen",
+      "Erstellung von Animationsfilmen"
+    ],
+    "answer": "B",
+    "explanation": "Virtualisierung ermöglicht das parallele Ausführen mehrerer Systeme auf derselben physischen Hardware."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was unterscheidet starke KI von schwacher KI?",
+    "choices": [
+      "Instinkte",
+      "Autonomes Lernen",
+      "Bewusstsein",
+      "Enorme Rechenleistung"
+    ],
+    "answer": "C",
+    "explanation": "Starke KI (AGI) verfügt über Bewusstsein und allgemeine Intelligenz, schwache KI nur über spezialisierte Fähigkeiten."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was sind Gefahren von AGI?",
+    "choices": [
+      "Verlust aller Arbeitsplätze",
+      "Technologische Singularität",
+      "Alignment-Probleme",
+      "Zu hohe Effizienzsteigerung"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Die größten Risiken liegen in Kontrollverlust (Singularität) und falschen Zielausrichtungen (Alignment-Probleme)."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was sind Anwendungsbereiche des Quantum Computing?",
+    "choices": [
+      "Telefonie",
+      "Medikamentenentwicklung",
+      "Materialforschung",
+      "Kryptographie"
+    ],
+    "answer": ["B","C","D"],
+    "explanation": "Quantencomputer eignen sich für Simulationen, Materialdesign und das Lösen kryptografischer Probleme."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ist der zentrale Hardwareunterschied beim neuromorphen Computing?",
+    "choices": [
+      "Analoge Signalverarbeitung",
+      "Verschmelzung von Speicher und Verarbeitung",
+      "In-Memory-Verarbeitung",
+      "Von-Neumann-Architektur"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Neuromorphes Computing integriert Speicher und Rechenlogik, wodurch energieeffiziente In-Memory-Verarbeitung möglich ist."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was sind essenzielle Phänomene beim Quantum Computing?",
+    "choices": [
+      "Quantensprung",
+      "Superposition",
+      "Verschränkung",
+      "Dualzustand (0,1)"
+    ],
+    "answer": ["B","C"],
+    "explanation": "Superposition und Verschränkung sind die Kernprinzipien quantenmechanischer Informationsverarbeitung."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Mit welcher Recheneinheit arbeiten Quantencomputer?",
+    "choices": [
+      "Bits",
+      "Ohm",
+      "Volt",
+      "Qubits"
+    ],
+    "answer": "D",
+    "explanation": "Quantencomputer verwenden Qubits – Quantenbits – statt klassischer Bits."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was versteht man unter Web3?",
+    "choices": [
+      "Agile Arbeitsmethode",
+      "Dezentrales Internet",
+      "Lesen und Schreiben im Web",
+      "Machtübertragung auf Nutzer"
+    ],
+    "answer": ["B","D"],
+    "explanation": "Web3 beschreibt ein dezentrales Internet auf Basis der Blockchain, das Nutzern Kontrolle und Eigentum gibt."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ist die technologische Singularität?",
+    "choices": [
+      "Zusammenbruch des Internets",
+      "Zeitpunkt unvorhersehbaren technologischen Fortschritts",
+      "Erfindung der Verschmelzung von Mensch und Maschine",
+      "Erschöpfung der Erdressourcen"
+    ],
+    "answer": "B",
+    "explanation": "Die Singularität beschreibt den Moment, an dem KI ihre eigene Entwicklung beschleunigt und menschliche Kontrolle überschreitet."
+  },
+  {
+    "section": "Grundlagen IT & Zukunftstechnologien",
+    "question": "Was ist der Vorteil von Quantum Computing?",
+    "choices": [
+      "Immun gegen Rauschen",
+      "Exponentiell schnellere Lösung bestimmter Probleme",
+      "Optimierung der Rechengeschwindigkeit klassischer Prozessoren",
+      "Minimierung der Anzahl an Operationen"
+    ],
+    "answer": "B",
+    "explanation": "Quantencomputer lösen spezielle Probleme (z. B. Optimierung, Faktorisierung) exponentiell schneller als klassische Computer."
+  },
+    {
+    "section": "IT-Compliance",
+    "question": "Welche Aussagen beschreiben Compliance im Unternehmenskontext zutreffend?",
+    "choices": [
+      "Verbindliche Regeln werden nachweislich eingehalten.",
+      "Nur technische Sicherheitsmaßnahmen werden umgesetzt.",
+      "Prozesse werden nach eigenen Interessen gestaltet.",
+      "Internationale Standards werden freiwillig beachtet."
+    ],
+    "answer": "A",
+    "explanation": "Compliance bedeutet die Einhaltung von Gesetzen, Vorschriften, Verträgen und internen Regeln."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Warum wird die IT-Compliance als „moving target“ bezeichnet?",
+    "choices": [
+      "Geschäftsprozesse und technische Systeme verändern sich fortlaufend.",
+      "Vorgaben und Regelwerke werden regelmäßig angepasst.",
+      "IT-Compliance gilt nur für Großunternehmen.",
+      "Eine vollständige Einhaltung ist dauerhaft kaum erreichbar."
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "IT-Compliance ist ein kontinuierlicher Prozess, da sich Systeme, Gesetze und Standards laufend ändern."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche der folgenden Regelwerke fallen unter das Zwiebelmodell der IT-Compliance?",
+    "choices": [
+      "Rechtsnormen",
+      "Interne IT-Richtlinien",
+      "Externe Regelwerke",
+      "Interne Prüfprotokolle"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Das Zwiebelmodell unterscheidet Rechtsnormen, externe und interne Regelwerke nach Bindungsgrad."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Beispiele beziehen sich auf unternehmensinterne Regelwerke?",
+    "choices": [
+      "ISO 27001",
+      "Passwortregelungen",
+      "IT-Sicherheitsgesetz",
+      "DSGVO"
+    ],
+    "answer": "B",
+    "explanation": "Interne Regelwerke gelten nur im Unternehmen, etwa Passwort- oder Zugriffsrichtlinien."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Elemente stehen im Zusammenhang mit IT-gestützter Compliance?",
+    "choices": [
+      "Software zur Überwachung von Vorgaben",
+      "Automatisierte Dokumentation von Prozessen",
+      "Einsatz von Hard- und Softwarelösungen zur Sicherstellung der Regelkonformität",
+      "Manuelle Aufbewahrung aller Dokumente"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IT-gestützte Compliance nutzt Technologie zur Kontrolle, Überwachung und Dokumentation der Regelkonformität."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Eigenschaften kennzeichnen interne IT-Richtlinien im Vergleich zu externen Vorgaben?",
+    "choices": [
+      "Sie gelten nur für das eigene Unternehmen.",
+      "Sie enthalten konkrete Handlungsanweisungen.",
+      "Sie werden durch externe Verträge vorgegeben.",
+      "Sie dienen zugleich der externen Dokumentation."
+    ],
+    "answer": ["A","B"],
+    "explanation": "Interne Richtlinien gelten unternehmensweit und konkretisieren externe Vorgaben."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Aussagen treffen im Zusammenhang mit IT-Compliance zu?",
+    "choices": [
+      "Ein einmaliger Zustand, der dauerhaft erreicht werden kann.",
+      "Nachweisliche Einhaltung relevanter IT-Vorgaben.",
+      "Kontinuierlicher Prozess zur Prüfung und Bewertung der IT-Konformität.",
+      "Ausschließlich technische Maßnahmen."
+    ],
+    "answer": ["B","C"],
+    "explanation": "IT-Compliance ist ein fortlaufender Managementprozess aus technischen, organisatorischen und rechtlichen Maßnahmen."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Gründe tragen zur zunehmenden Bedeutung von IT-Compliance in Unternehmen bei?",
+    "choices": [
+      "Zunahme gesetzlicher Anforderungen",
+      "Hohe Risiken bei Verstößen",
+      "Vereinfachte gleichzeitige Einhaltung aller Regelwerke",
+      "Moderne Systeme erfüllen automatisch alle Anforderungen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Gesetzesflut und hohe Risiken bei Verstößen machen IT-Compliance strategisch bedeutsam."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Aussagen charakterisieren das Zero-Trust-Sicherheitsmodell?",
+    "choices": [
+      "Interne Nutzer erhalten uneingeschränkten Zugriff.",
+      "Jeder Zugriff wird unabhängig vom Standort kontinuierlich überprüft.",
+      "Authentifizierung ist nicht mehr erforderlich.",
+      "Es funktioniert nur in der Cloud."
+    ],
+    "answer": "B",
+    "explanation": "Zero Trust bedeutet: „Never trust, always verify“ – jeder Zugriff wird überprüft, unabhängig von der Herkunft."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Herausforderungen entstehen durch Technologien wie KI oder Blockchain im Hinblick auf Compliance?",
+    "choices": [
+      "Nachvollziehbarkeit und Erklärbarkeit von Algorithmen",
+      "Gewährleistung der Sicherheit und Integrität von Daten",
+      "Audits werden überflüssig",
+      "Datenschutzvorgaben entfallen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Neue Technologien erfordern transparente, überprüfbare Datenverarbeitung und sichere Systeme."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche regulatorischen Anforderungen bestehen im Bereich Nachhaltigkeit?",
+    "choices": [
+      "Integration nachhaltiger IT-Prinzipien",
+      "Offenlegung von Klimarisiken",
+      "Umweltfreundliche IT-Beschaffung",
+      "Ignorieren von ESG-Kriterien"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Nachhaltigkeit wird zunehmend reguliert, etwa durch ESG-Vorgaben, energieeffiziente Beschaffung und Berichtspflichten."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Aussagen beschreiben das Verhältnis zwischen Cyberbedrohungen und Regulierung?",
+    "choices": [
+      "Cyberangriffe entwickeln sich schneller als Gesetze.",
+      "Regulierung verhindert sämtliche Angriffe.",
+      "Gesetze reagieren schneller als Angriffe.",
+      "Es bestehen keine gegenseitigen Einflüsse."
+    ],
+    "answer": "A",
+    "explanation": "Cyberbedrohungen entstehen schneller, als der Gesetzgeber reagieren kann – Compliance muss flexibel bleiben."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Vorteile können durch wirksame IT-Compliance erreicht werden?",
+    "choices": [
+      "Vermeidung rechtlicher Nachteile",
+      "Erhöhung der IT-Sicherheit",
+      "Erhöhung des Unternehmenswerts",
+      "Vollständige Beseitigung aller Risiken"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IT-Compliance senkt Risiken, stärkt Sicherheit und Unternehmenswert; absolute Sicherheit gibt es jedoch nicht."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Regelwerke lassen sich typischerweise zu den unternehmensexternen Vorgaben zählen?",
+    "choices": [
+      "ISO 27001",
+      "ITIL",
+      "Interne Passwortregeln",
+      "Branchenbezogene Best Practices"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Externe Regelwerke stammen von Institutionen, z. B. ISO, ITIL oder Branchenstandards."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Aufgaben gehören zum Management der IT-Compliance?",
+    "choices": [
+      "Identifizierung relevanter Regelwerke",
+      "Schaffung betrieblicher Kontrollen",
+      "Change Management bei rechtlichen Änderungen",
+      "Entwicklung agiler Softwaremethoden"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Das Management umfasst Identifikation, Umsetzung und Anpassung von Compliance-Maßnahmen."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Wie können Zertifizierungen wie ISO 27001 im Zwiebelmodell eingeordnet werden?",
+    "choices": [
+      "Unternehmensexternes Regelwerk",
+      "Gesetzliche Verpflichtung",
+      "Teil der nationalen Gesetzgebung",
+      "Interne Richtlinie"
+    ],
+    "answer": "A",
+    "explanation": "ISO 27001 ist ein freiwilliges, unternehmensexternes Regelwerk zur Informationssicherheit."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Aussagen beziehen sich auf die Bedeutung der DSGVO für die IT-Compliance?",
+    "choices": [
+      "Zählt zu den Rechtsnormen",
+      "Gilt unmittelbar in der EU",
+      "Regelt den Umgang mit personenbezogenen Daten",
+      "Ist freiwillig anwendbar"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Die DSGVO ist eine EU-Verordnung mit unmittelbarer Gültigkeit und bildet die Basis für Datenschutz-Compliance."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Welche Aussagen treffen auf das Bundesdatenschutzgesetz (BDSG) zu?",
+    "choices": [
+      "Zählt zu den Rechtsnormen",
+      "Ergänzt die DSGVO durch nationale Bestimmungen",
+      "Ersetzt die DSGVO vollständig",
+      "Gilt nur für Privatpersonen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Das BDSG konkretisiert die DSGVO in Deutschland, etwa bei Beschäftigtendaten."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Was kennzeichnet ein Service Level Agreement (SLA)?",
+    "choices": [
+      "Interne Leistungsvereinbarung mit definierten Zielen",
+      "Gesetzlich vorgeschriebener Vertragstyp",
+      "Nur für externe Dienstleister gültig",
+      "Keine rechtliche Relevanz"
+    ],
+    "answer": "A",
+    "explanation": "Ein SLA legt Leistungsziele und Verantwortlichkeiten fest, meist als internes Regelwerk."
+  },
+  {
+    "section": "IT-Compliance",
+    "question": "Was beschreibt ITIL im Zusammenhang mit IT-Compliance?",
+    "choices": [
+      "Unternehmensexternes Regelwerk",
+      "Empfehlung für IT-Service-Management",
+      "Gesetzlich verpflichtendes Rahmenwerk",
+      "Teil der DSGVO"
+    ],
+    "answer": ["A","B"],
+    "explanation": "ITIL ist ein freiwilliges, externes Rahmenwerk mit Best Practices für IT-Service-Management."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Formen von KI werden in der Industrie häufig eingesetzt?",
+    "choices": [
+      "Maschinelles Lernen",
+      "Expertensysteme",
+      "Klassische Programmierung",
+      "Computer Vision"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "In der Industrie werden ML, Expertensysteme und Computer Vision breit eingesetzt; klassische Programmierung gilt nicht als KI."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Technologien gehören zu den Bereichen der KI?",
+    "choices": [
+      "Deep Learning",
+      "Quantenmechanik",
+      "Sprachverarbeitung",
+      "Elektrotechnik"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Deep Learning und NLP (Sprachverarbeitung) sind Teilgebiete der KI; Quantenmechanik und Elektrotechnik nicht."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Was sind typische Aufgaben von humanoiden Robotern in der Industrie?",
+    "choices": [
+      "Montage",
+      "Kreatives Design",
+      "Transport",
+      "Kundenberatung"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Humanoide Roboter werden für Montage und Transport genutzt – kreative oder soziale Aufgaben übernehmen Menschen."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Anwendungsgebiete deckt Computer Vision in der Industrie ab?",
+    "choices": [
+      "Qualitätskontrolle",
+      "Kundenkommunikation",
+      "Fehlererkennung",
+      "Sicherheitssysteme"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Computer Vision unterstützt Qualitätsprüfung, Fehlererkennung und Überwachung – nicht Kommunikation."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Predictive Maintenance nutzt KI für welche Zwecke?",
+    "choices": [
+      "Vorhersage von Wartungsbedarf",
+      "Automatisierung von Reparaturen",
+      "Überwachung von Maschinendaten",
+      "Steuerung von Robotern"
+    ],
+    "answer": ["A","C"],
+    "explanation": "Predictive Maintenance überwacht Maschinendaten, um Wartungsbedarf vorherzusagen."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Vorteile bieten KI-gestützte Assistenzsysteme in der Produktion?",
+    "choices": [
+      "Unterstützung bei Entscheidungen",
+      "Vorschläge zur Prozessoptimierung",
+      "Dokumentation von Abläufen",
+      "Permanente Pausenregulierung"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Assistenzsysteme unterstützen Entscheidungen, Prozesse und Dokumentation – keine Pausenregelung."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "In welchen Bereichen wird KI in der Lieferkette angewendet?",
+    "choices": [
+      "Bedarfsprognose",
+      "Routenplanung",
+      "Dokumentenverwaltung",
+      "Lieferantenbewertung"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "KI optimiert Bedarfsprognosen, Lieferantenbewertung und Transportwege, nicht reine Dokumentenverwaltung."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Was kann KI im Qualitätsmanagement verbessern?",
+    "choices": [
+      "Frühzeitige Fehlererkennung",
+      "Automatisierte Prüfprotokolle",
+      "Schulung von Mitarbeitenden",
+      "Datensammlung und -analyse"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "KI erkennt frühzeitig Fehler, erstellt Protokolle und analysiert Qualitätsdaten – Schulungen sind menschlich."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Was sind Herausforderungen bei der Einführung von KI in der Industrie?",
+    "choices": [
+      "Datenqualität und -verfügbarkeit",
+      "Transparenz der Entscheidungen",
+      "Kostspielige Hardware",
+      "Mitarbeiterschulung"
+    ],
+    "answer": ["A","B","C","D"],
+    "explanation": "Schlechte Daten, intransparente Modelle, Kosten und fehlendes Know-how erschweren KI-Projekte."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Wozu dient Explainable AI (XAI) in industriellen Anwendungen?",
+    "choices": [
+      "Erklärbarkeit von KI-Entscheidungen",
+      "Geheimhaltung von Algorithmen",
+      "Verbesserung der Nutzerakzeptanz",
+      "Einfachere Fehlerbehebung"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "XAI macht Entscheidungen nachvollziehbar, fördert Vertrauen und unterstützt Fehleranalyse."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Datenschutzaspekte sind bei industriellen KI-Systemen wichtig?",
+    "choices": [
+      "Schutz sensibler Betriebsdaten",
+      "Kontrolle des Datenzugriffs",
+      "Vermeidung von Datenverlust",
+      "Öffentliche Datenfreigabe"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Industrielle KI-Systeme müssen Datenzugriff, Vertraulichkeit und Verlustprävention sicherstellen."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Wie kann Datenschutz in KI-Projekten umgesetzt werden?",
+    "choices": [
+      "Einsatz von Verschlüsselung",
+      "Datenminimierung",
+      "Offene Datenbanken",
+      "Mitarbeiterschulungen"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Verschlüsselung, Datenminimierung und Awareness-Schulungen sind zentrale Datenschutzmaßnahmen."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Vorteile ermöglicht KI in der industriellen Produktion?",
+    "choices": [
+      "Höhere Produktqualität",
+      "Kürzere Produktionszeiten",
+      "Mehr manuelle Arbeit",
+      "Verbesserte Ressourceneffizienz"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "KI verbessert Qualität, Effizienz und Geschwindigkeit – manuelle Arbeit wird reduziert."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Wie hilft KI bei der Instandhaltung?",
+    "choices": [
+      "Minimierung ungeplanter Ausfälle",
+      "Vorausschauende Planung",
+      "Automatisierte Fehlerdiagnose",
+      "Verlängerte Stillstandzeiten"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "KI erkennt Defekte frühzeitig, plant Wartungen und automatisiert Diagnosen – Ausfälle werden reduziert."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Vorteile zeigt KI bei der Lagerverwaltung?",
+    "choices": [
+      "Automatisierte Nachbestellung",
+      "Echtzeitüberwachung der Bestände",
+      "Papierbasierte Inventuren",
+      "Optimierte Lagerrouten"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "KI optimiert Lagerhaltung durch Nachbestellung, Echtzeitdaten und optimierte Wegeplanung."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Wie trägt KI zur Nachhaltigkeit bei?",
+    "choices": [
+      "Reduktion von Abfall",
+      "Energieeffizienzsteigerung",
+      "Erhöhung des Ressourcenverbrauchs",
+      "Vorschläge für umweltfreundliche Prozesse"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "KI unterstützt Nachhaltigkeit durch optimierte Prozesse, Energieeffizienz und Materialeinsparung."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Faktoren steigern die Akzeptanz von KI in der Industrie?",
+    "choices": [
+      "Nachvollziehbare Entscheidungen",
+      "Schulungen für Mitarbeiter",
+      "Klare Nutzenkommunikation",
+      "Vollständige Automatisierung"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Verständliche Entscheidungen, Schulung und Nutzenkommunikation fördern Vertrauen in KI-Systeme."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche Herausforderungen bestehen beim Einsatz von KI in der Produktion?",
+    "choices": [
+      "Hoher Bedarf an qualitativ hochwertigen Daten",
+      "Fehlende Fachkräfte",
+      "Zu schnelle Implementierung"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Datenqualität und Fachkräftemangel sind die zentralen Hürden beim KI-Einsatz."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Welche positiven Effekte hat KI auf Wettbewerbsfähigkeit?",
+    "choices": [
+      "Innovationstreiber",
+      "Prozessoptimierung",
+      "Erhöhung der Kosten",
+      "Reduzierte Produktqualität"
+    ],
+    "answer": ["A","B"],
+    "explanation": "KI steigert Wettbewerbsfähigkeit durch Innovation und Effizienz – Kosten und Qualität verbessern sich."
+  },
+  {
+    "section": "KI in der industriellen Anwendung",
+    "question": "Warum investieren Unternehmen verstärkt in KI?",
+    "choices": [
+      "Effizienzsteigerung",
+      "Wettbewerbsvorteile",
+      "Verbesserung der Kundenzufriedenheit",
+      "Gesetzliche Verpflichtungen"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Unternehmen investieren in KI, um Effizienz, Kundenzufriedenheit und Marktvorsprung zu erreichen."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Aussagen beschreiben die primären Rollen des IT-Controllings im Unternehmenskontext zutreffend?",
+    "choices": [
+      "Versorgung des Managements mit entscheidungsrelevanten Informationen über die IT",
+      "Bindeglied zwischen IT-Abteilung und Unternehmensführung",
+      "Ausschließliche Überwachung von IT-Budgets",
+      "Umsetzung von IT-Compliance-Vorgaben"
+    ],
+    "answer": ["A","B"],
+    "explanation": "IT-Controlling liefert Informationen für Entscheidungen und vermittelt zwischen IT und Management."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche spezifischen Eigenschaften der IT erfordern ein spezialisiertes Controlling?",
+    "choices": [
+      "Gemeinkostendominanz",
+      "Heterogenität der Systeme",
+      "Immaterialität von IT-Leistungen",
+      "Sehr stabile Produktlebenszyklen"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IT ist komplex, immateriell und verursacht schwer zurechenbare Kosten, was spezielles Controlling nötig macht."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Wie grenzen sich IT-Controlling und IT-Governance voneinander ab?",
+    "choices": [
+      "IT-Governance definiert strategischen Rahmen und Verantwortlichkeiten.",
+      "IT-Controlling liefert Messgrößen und Kennzahlen zur Umsetzung.",
+      "Beide Begriffe sind synonym.",
+      "IT-Governance ist ein operatives Werkzeug des Controllings."
+    ],
+    "answer": ["A","B"],
+    "explanation": "Governance gibt Ziele und Rahmen vor; Controlling misst und steuert deren Umsetzung."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Instrumente sind primär der quantitativen, finanzwirtschaftlichen Bewertung im IT-Controlling zuzuordnen?",
+    "choices": [
+      "Total Cost of Ownership (TCO)",
+      "Return on Investment (ROI)",
+      "Nutzwertanalyse",
+      "Business Case"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "TCO, ROI und Business Case bewerten IT-Investitionen quantitativ; Nutzwertanalyse ist qualitativ."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Phasen umfasst der Steuerungszyklus des IT-Controllings?",
+    "choices": [
+      "Planung",
+      "Kontrolle",
+      "Steuerung",
+      "Information"
+    ],
+    "answer": ["A","B","C","D"],
+    "explanation": "Der Steuerungszyklus besteht aus Planung, Kontrolle, Steuerung und Information – in kontinuierlicher Folge."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Ziele sind dem strategischen IT-Controlling zuzuordnen?",
+    "choices": [
+      "Business-IT-Alignment sicherstellen",
+      "Langfristige Weiterentwicklung der IT-Landschaft",
+      "Kurzfristige Kostentransparenz",
+      "Effizienz bestehender IT-Services optimieren"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Strategisches Controlling richtet IT langfristig an Unternehmenszielen aus; Effizienz und Kosten sind operativ."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Instrumente gehören primär zum operativen IT-Controlling?",
+    "choices": [
+      "IT-Portfoliomanagement",
+      "Business-IT-Alignment-Messung",
+      "IT-Kosten- und Leistungsrechnung",
+      "Entwicklung der IT-Strategie"
+    ],
+    "answer": "C",
+    "explanation": "Die Kosten- und Leistungsrechnung ist zentrales Instrument des operativen IT-Controllings."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Herausforderungen entstehen durch Cloud Computing für das IT-Controlling?",
+    "choices": [
+      "Verschiebung von CapEx zu OpEx",
+      "Kontrollverlust durch dezentrale Ressourcen",
+      "Schwierige Kostenzuordnung zu Projekten",
+      "Komplette Vereinfachung der Kostenstruktur"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Cloud Computing verändert Kostenmodelle, erschwert Kontrolle und Kostenzuordnung."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Frameworks adressieren die finanzielle Steuerung von Cloud-Ressourcen?",
+    "choices": [
+      "FinOps",
+      "Cloud Financial Management (CFM)",
+      "ITIL",
+      "Scrum"
+    ],
+    "answer": ["A","B"],
+    "explanation": "FinOps und CFM sind Frameworks für finanzielle Cloud-Steuerung; ITIL und Scrum fokussieren auf andere Themen."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Was sind Kennzeichen agiler Projektsteuerung im Vergleich zu klassischen Ansätzen?",
+    "choices": [
+      "Fixe Zeit und Budget, variabler Umfang",
+      "Fokus auf Geschäftswert",
+      "Unveränderlicher Projektplan",
+      "Vermeidung von Änderungen"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Agile Steuerung legt Wert auf Nutzen und Flexibilität statt auf starre Pläne."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Leitfragen stehen im agilen Controlling im Vordergrund?",
+    "choices": [
+      "Maximieren wir den Geschäftswert?",
+      "Liefern wir kontinuierlich Mehrwert?",
+      "Wie schnell reagieren wir auf Veränderungen?",
+      "Halten wir den ursprünglichen Plan exakt ein?"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Agiles Controlling bewertet Erfolg anhand von Wertschöpfung, Anpassungsfähigkeit und Kundennutzen."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Metriken sind typisch für agiles Controlling?",
+    "choices": [
+      "Business Value Delivered",
+      "Return on Investment (ROI)",
+      "Cycle Time",
+      "Velocity"
+    ],
+    "answer": ["A","C","D"],
+    "explanation": "Agile Metriken fokussieren auf Wertschöpfung, Geschwindigkeit und Durchlaufzeit – ROI ist klassisch-finanziell."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Wie entwickelt sich die Rolle des IT-Controllers zukünftig?",
+    "choices": [
+      "Vom Kontrolleur zum strategischen Partner",
+      "Analytische Fähigkeiten gewinnen an Bedeutung",
+      "Vermittler zwischen IT und Fachbereichen",
+      "Fokus nur noch auf Buchhaltung"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IT-Controller werden zu strategischen Partnern mit Analyse- und Vermittlungskompetenz."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Faktoren führen häufig zu Fehlentscheidungen bei IT-Investitionen?",
+    "choices": [
+      "Fehlende Transparenz des Nutzens",
+      "Unzureichende Übersicht über Gesamtkosten",
+      "Fokus auf technische Machbarkeit statt Mehrwert",
+      "Vermeidung jeglicher Risiken"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Mangelnde Kosten-Nutzen-Transparenz und Technikfokus führen zu Fehlentscheidungen."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Merkmale begründen die Notwendigkeit von IT-Controlling?",
+    "choices": [
+      "Immaterialität der Leistungen",
+      "Gemeinkostendominanz",
+      "Schneller technologischer Wandel",
+      "Hohe Standardisierung der Prozesse"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "IT-Leistungen sind schwer greifbar, teuer zuzuordnen und unterliegen schneller technologischer Entwicklung."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Konsequenzen ergeben sich aus der Gemeinkostendominanz von IT-Kosten?",
+    "choices": [
+      "Komplexe Verrechnungsmethoden nötig",
+      "Kosten oft nicht direkt zurechenbar",
+      "Führt automatisch zu höheren Gesamtkosten",
+      "Fördert pauschale Wahrnehmung der IT als Kostenblock"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Gemeinkosten erschweren Transparenz und führen zu verzerrter Wahrnehmung der IT als Kostenstelle."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Ziele verfolgt die Messung des IT-Values?",
+    "choices": [
+      "Nachweis des Wertbeitrags der IT",
+      "Verbesserung der Entscheidungsgrundlagen",
+      "Verstärkung der Kostensenkungsfokussierung",
+      "Umwandlung der IT vom Kostenfaktor zum Leistungsfaktor"
+    ],
+    "answer": ["A","B","D"],
+    "explanation": "Der IT-Value soll zeigen, welchen messbaren Beitrag die IT zum Unternehmenserfolg leistet."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Prozessschritte umfasst das IT-Portfoliomanagement?",
+    "choices": [
+      "Bewertung und Priorisierung von Projekten",
+      "Kontinuierliche Steuerung des Projektportfolios",
+      "Technische Implementierung der Projekte",
+      "Administration der IT-Systeme"
+    ],
+    "answer": ["A","B"],
+    "explanation": "Portfoliomanagement bewertet, priorisiert und überwacht IT-Projekte auf strategischer Ebene."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Welche Merkmale kennzeichnen operative Ziele des IT-Controllings?",
+    "choices": [
+      "Kurz- bis mittelfristig",
+      "Effizienzorientiert",
+      "Schaffung von Kostentransparenz",
+      "Langfristige Ausrichtung der IT"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Operative Ziele zielen auf Effizienz, Transparenz und kurzfristige Steuerung ab."
+  },
+  {
+    "section": "IT-Controlling",
+    "question": "Was sind Kernaufgaben des IT-Controllings?",
+    "choices": [
+      "Sicherstellung des wirtschaftlichen IT-Einsatzes",
+      "Unterstützung bei Planung, Steuerung und Kontrolle der IT",
+      "Messung des IT-Wertbeitrags",
+      "Durchführung von Mitarbeiterschulungen"
+    ],
+    "answer": ["A","B","C"],
+    "explanation": "Kernaufgaben sind Wirtschaftlichkeit, Steuerung und Nachweis des IT-Beitrags; Schulungen sind keine Controlling-Aufgabe."
+  }
+]
